@@ -1,0 +1,34 @@
+title: elementaryOS
+description: The fast, open, and privacy-respecting replacement for Windows and macOS
+permalink: /:title/
+
+#
+# Flags below are optional
+#
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-multiple-languages-plugin
+
+paginate: 7
+paginate_path: "/blog/page:num/"
+
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+exclude: [README.md, Gemfile, Gemfile.lock, vendor]
+
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Settings for jekyll-multiple-languages-plugin
+languages: ["en", "pt"]
+exclude_from_localizations: ["assets", "CNAME"]
+languageNames:
+  en: English
+  pt: Português

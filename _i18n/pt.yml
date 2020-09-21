@@ -1,0 +1,8 @@
+site:
+  name: elementaryOS
+  description: Um substituto para Windows e MacOS rápido, aberto e que respeita sua privacidade
+
+main:
+  hero:
+    title: O que há de novo no elementary OS 5.1 Hera
+    description: Uma grande atualização em cima de uma base sólida. Traz uma tela de login completamente renovada, uma nova experiência inicial, novas maneiras de instalar aplicativos e refinamentos.
