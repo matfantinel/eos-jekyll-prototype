@@ -1,8 +1,37 @@
-site:
-  name: elementaryOS
-  description: The fast, open, and privacy-respecting replacement for Windows and macOS  
+url_fragment: # Keep this empty in english
 
-main:
+global:
+  site_title: elementaryOS
+  site_description: The fast, open, and privacy-respecting replacement for Windows and macOS
+  back_to_home_page: Go to Home Page
+
+header:
+  support: Support
+  developer: Developer
+  get_involved: Get Involved
+  store: Store
+  blog: Blog
+
+footer:
+  language_picker_label: Language
+  language_picker_inner_label: Change Site Language
+  press: Press
+  brand: Brand
+  oem: OEMs
+  privacy: Privacy
+  team: Team
+  open_source: Open Source
+
+home:
   hero:
     title: What's New in elementary OS 5.1 Hera
     description: A major update on a solid foundation. Featuring a completely redesigned login and lockscreen greeter, a new onboarding experience, new ways to sideload and install apps, major System Settings updates, improved core apps, and desktop refinements.
+
+404:
+  title: 404 - Page not found
+  message:
+    title: The page you’re looking for can’t be found
+    description: There isn’t anything located here. Check the web address for mispelled words and try again.
+
+brand:
+  title: "Brand"

@@ -1,0 +1,123 @@
+<footer>
+  <div>
+    <p>Copyright &copy; {{ 'now' | date: "%Y" }} elementary, Inc.</p>
+    <div class="popover">
+      <a class="popover-trigger" href="#"><i class="far fa-language"></i> {% t footer.language_picker_label %}</a>
+      <div class="popover-content">
+        <strong>{% t footer.language_picker_inner_label %}</strong>
+        <ul>
+          {% for lang in site.languageNames %}
+          {% if page.permalink %}
+          <li>
+            <a
+              href="
+              {% if lang[0] != 'en' %}
+              {{ site.url }}/{{ lang[0] }}/{{ page.permalink }}
+              {% else %}
+              {{ site.url }}/{{ page.permalink }}
+              {% endif %}
+              "
+              rel="alternate"
+              hreflang="{{ lang[0] | replace: '_', '-' }}"
+              data-l10n-off
+              onclick="setLang('{{ lang[0] }}')"
+            >
+              {{ lang[1] }}
+            </a>
+          </li>
+          {% else %}
+          <li>
+            <a
+              href="
+              {% if lang[0] != 'en' %}
+              {{ site.url }}/{{ lang[0] }}
+              {% else %}
+              {{ site.url }}
+              {% endif %}
+              "
+              rel="alternate"
+              hreflang="{{ lang[0] | replace: '_', '-' }}"
+              data-l10n-off
+              onclick="setLang('{{ lang[0] }}')"
+            >
+              {{ lang[1] }}
+            </a>
+          </li>
+          {% endif %}
+          {% if lang[0] == 'en' %}
+          <hr />
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ul>
+    <li><a href="{{ site.url }}{% t url_fragment %}/press">{% t footer.press %}</a></li>
+    <li><a href="{{ site.url }}{% t url_fragment %}/brand">{% t footer.brand %}</a></li>
+    <li><a href="{{ site.url }}{% t url_fragment %}/oem">{% t footer.oem %}</a></li>
+    <li><a href="{{ site.url }}{% t url_fragment %}/privacy">{% t footer.privacy %}</a></li>
+    <li><a href="{{ site.url }}{% t url_fragment %}/team">{% t footer.team %}</a></li>
+    <li><a href="{{ site.url }}{% t url_fragment %}/open-source">{% t footer.open_source %}</a></li>
+  </ul>
+</footer>
+
+<script>
+  document.querySelector('.popover-trigger').addEventListener('click', (event) => {
+    event.preventDefault();
+    if (event.target.classList.contains('popover-trigger')) {
+      openPopover(event.target);
+    } else {
+      // If an inner element was clicked (like the icon), we need to send the parent
+      openPopover(event.target.parentElement);
+    }
+  });
+
+  function openPopover(trigger) {
+    const popover = trigger.parentElement;
+    const popoverContent = popover.querySelector('.popover-content');
+    const body = document.querySelector('body');
+
+    // First make the popover show up by toggling its class
+    popover.classList.add('active');
+
+    // Set body overflow to hidden just to make sure nothing interferes with the popover
+    body.style.overflow = 'hidden';
+
+    // setTimeout is used here so that we wait for the current thread to finish running
+    // before we add the listeners. Otherwise, they'd fire immediatelly
+    setTimeout(() => {
+      body.addEventListener('click', closePopover);
+      body.addEventListener('scroll', closePopover);
+      body.addEventListener('touchmove', closePopover);
+      body.addEventListener('mousewheel', closePopover);
+      body.addEventListener('wheel', closePopover);
+    }, 0);
+
+    // When user scrolls inside the popover, make sure it won't scroll the body too
+    popoverContent.addEventListener('scroll', (e) => e.stopPropagation());
+    popoverContent.addEventListener('touchmove', (e) => e.stopPropagation());
+    popoverContent.addEventListener('mousewheel', (e) => e.stopPropagation());
+    popoverContent.addEventListener('wheel', (e) => e.stopPropagation());
+  }
+
+  var closePopover = function (event) {
+    if (!event.target.matches('.popover-content *')) {
+      // Close the popover
+      document.querySelector('.popover').classList.remove('active');
+
+      const body = document.querySelector('body');
+      // Reset the body's style and listeners, so that things don't fire again
+      body.style.overflow = 'visible';
+      body.removeEventListener('click', closePopover);
+      body.removeEventListener('scroll', closePopover);
+      body.removeEventListener('touchmove', closePopover);
+      body.removeEventListener('mousewheel', closePopover);
+      body.removeEventListener('wheel', closePopover);
+    }
+  }
+
+  function setLang(lang) {
+    localStorage.setItem('lang', lang);
+  }
+</script>

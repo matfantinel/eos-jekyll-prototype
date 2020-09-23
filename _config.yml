@@ -21,14 +21,17 @@ kramdown:
     block:
       line_numbers: true
 
+include:
+ - _pages
+ 
 exclude: [README.md, Gemfile, Gemfile.lock, vendor]
 
 sass:
   style: :compressed # You might prefer to minify using :compressed
 
 # Settings for jekyll-multiple-languages-plugin
-languages: ["en", "pt"]
+languages: ["en", "en", "pt_BR"]
 exclude_from_localizations: ["assets", "CNAME"]
 languageNames:
   en: English
-  pt: Português
+  pt_BR: Português (Brasil)

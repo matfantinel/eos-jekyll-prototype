@@ -1,17 +1,54 @@
+---
+url: default
+---
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}</title>
+    <!-- <title>{% if page.title %}{% t page.title %} – {% endif %}{% t global.site_title %}</title> -->
+    <title>{% t page.title %}</title>
 
     {% include base/meta.html %}
 
-    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.9.0/css/all.css"
+      integrity="sha384-vlOMx0hKjUCl4WzuhIhSNZSm2yQCaf0mOU1hEDK/iztH3gU4v5NMmJln9273A6Jz"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
   </head>
 
   <body>
-    {{ content }}
+    {% include base/header.html %}
 
-    {% include base/analytics.html %}
+    <div id="content-container">{{ content }}</div>
+
+    {% include base/footer.html %} {% include base/analytics.html %}
   </body>
 </html>
+
+<script>
+  // If the language has been set previously, don't run this
+  if (!localStorage.getItem('lang')) {
+    var availableLanguages = [{% for lang in site.languageNames %}'{{ lang[0] }}',{% endfor %}];
+
+    // Function to check if any language is already set in the URL
+    var urlChecker = value => window.location.pathname.includes(`/${value}`);
+
+    // If the URL does not specify a language...
+    if (availableLanguages.filter(urlChecker).length === 0) {
+      var lang = navigator.language || navigator.userLanguage;
+      if (lang) {
+        lang = lang.replace('-', '_');
+      }
+
+      // ...and the browser language is supported...
+      if (availableLanguages.indexOf(lang)) {
+        // ... then let's save that language to localStorage to remember, and navigate to it
+        localStorage.setItem('lang', lang);
+        window.location = '{{ site.url }}/' + lang + '/{{ page.permalink }}';
+      }
+    }
+  }
+</script>

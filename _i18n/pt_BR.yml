@@ -1,0 +1,37 @@
+url_fragment: /pt_BR
+
+global:
+  site_title: elementaryOS
+  site_description: Um substituto para Windows e MacOS rápido, aberto e que respeita sua privacidade
+  back_to_home_page: Voltar para a página inicial
+
+header:
+  support: Suporte
+  developer: Desenvolvedor
+  get_involved: Se Envolva
+  store: Loja
+  blog: Blog
+
+footer:
+  language_picker_label: Idioma
+  language_picker_inner_label: Alterar o idioma do site
+  press: Imprensa
+  brand: Marca
+  oem: Fabricantes
+  privacy: Privacidade
+  team: Equipe
+  open_source: Código Aberto
+
+home:
+  hero:
+    title: O que há de novo no elementary OS 5.1 Hera
+    description: Uma grande atualização em cima de uma base sólida. Traz uma tela de login completamente renovada, uma nova experiência inicial, novas maneiras de instalar aplicativos e refinamentos.
+
+404:
+  title: 404 - Página não encontrada
+  message:
+    title: A página que você está procurando não foi encontrada
+    description: Não há nada aqui. Verifique se o endereço digitado não possui nenhum erro e tente novamente.
+
+brand:
+  title: Marca
