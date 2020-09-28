@@ -23,9 +23,13 @@ footer:
   open_source: Código Aberto
 
 home:
-  hero:
-    title: O que há de novo no elementary OS 5.1 Hera
-    description: Uma grande atualização em cima de uma base sólida. Traz uma tela de login completamente renovada, uma nova experiência inicial, novas maneiras de instalar aplicativos e refinamentos.
+  payment:
+    pay_what_you_want: "Pague o que quiser:"
+    enter_any_amount: Digite qualquer valor em dólares americanos.
+    purchase_elementaryos: Comprar elementary OS
+    download_elementaryos: Baixar elementary OS
+    recommended_specifications: Especificações de Sistema Recomendadas
+    custom: Personalizar
 
 404:
   title: 404 - Página não encontrada

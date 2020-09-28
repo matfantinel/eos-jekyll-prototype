@@ -23,9 +23,13 @@ footer:
   open_source: Open Source
 
 home:
-  hero:
-    title: What's New in elementary OS 5.1 Hera
-    description: A major update on a solid foundation. Featuring a completely redesigned login and lockscreen greeter, a new onboarding experience, new ways to sideload and install apps, major System Settings updates, improved core apps, and desktop refinements.
+  payment:
+    pay_what_you_want: "Pay What You Want:"
+    enter_any_amount: Enter any dollar ammount.
+    purchase_elementaryos: Purchase elementary OS
+    download_elementaryos: Download elementary OS
+    recommended_specifications: Recommended System Specifications
+    custom: Custom
 
 404:
   title: 404 - Page not found

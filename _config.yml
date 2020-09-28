@@ -11,9 +11,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-multiple-languages-plugin
 
-paginate: 7
-paginate_path: "/blog/page:num/"
-
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
@@ -35,3 +32,8 @@ exclude_from_localizations: ["assets", "CNAME"]
 languageNames:
   en: English
   pt_BR: Português (Brasil)
+
+# Release info
+os_release_version: 5.1.7
+os_release_name: Hera
+os_release_size: 1.49 GB
