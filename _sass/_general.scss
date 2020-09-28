@@ -1,0 +1,291 @@
+html,
+body {
+  background-color: #fff;
+  box-sizing: border-box;
+  color: #333;
+  fill: #333;
+  font-family: var(--ui-font);
+  font-weight: 400;
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Code for old Firefox and KaiOS */
+::-moz-selection {
+  background-color: rgba(140, 213, 255, 0.3);
+  color: rgb(0, 46, 153);
+  text-shadow: none;
+}
+
+/* Code for modern browsers */
+::selection {
+  background-color: rgba(140, 213, 255, 0.3);
+  color: rgb(0, 46, 153);
+  text-shadow: none;
+}
+
+/**************
+* Body Layout *
+**************/
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#content-container {
+  flex-grow: 1;
+}
+
+footer {
+  color: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  justify-content: center;
+  padding-top: 24px;
+  text-align: center;
+  align-items: center;
+}
+
+footer > * {
+  padding: 6px 12px;
+  margin: 0;
+}
+
+@media (min-width: 650px) {
+  footer {
+    justify-content: space-between;
+  }
+
+  footer > * {
+    padding: 0 12px;
+  }
+}
+
+footer > div > * {
+  display: inline-block;
+}
+
+footer > div > p,
+footer > div > div > a,
+footer > ul {
+  opacity: 0.8;
+  text-align: center;
+  list-style: none;
+}
+
+footer .popover {
+  margin: 12px;
+}
+
+@media (min-width: 375px) {
+  footer > p,
+  footer > .popover {
+    float: left;
+  }
+
+  footer > ul {
+    float: right;
+  }
+}
+
+footer > ul li {
+  display: inline-block;
+}
+
+footer ul li + li,
+footer p a {
+  margin-left: 12px;
+}
+
+footer a {
+  color: inherit;
+}
+
+footer i.fa {
+  font-size: 16px;
+}
+
+footer a:focus i.fa {
+  color: #08c;
+  text-shadow: 0 1px 6px #08c;
+}
+
+footer ul li a:focus {
+  outline: none;
+}
+
+/*********
+* Layout *
+*********/
+
+.column {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.column.third {
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+@media (min-width: 444px) {
+  .row .column.half {
+    margin: 32px 32px 0;
+    width: calc(50% - 88px);
+  }
+
+  .column.third {
+    margin: 32px 32px 0;
+    width: calc(33% - 88px);
+  }
+
+  .column + .column {
+    margin-left: 16px !important;
+  }
+}
+
+.column.half {
+  text-align: left;
+  vertical-align: middle;
+}
+
+.column img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 48px 24px;
+  text-align: center;
+  width: auto;
+}
+
+.row .row {
+  padding: 24px 0;
+}
+
+.row ul,
+.row ol {
+  text-align: left;
+}
+
+.row.docs,
+.row.docs .slide {
+  max-width: 800px;
+}
+
+/*****************
+* Special Colors *
+*****************/
+
+.grey {
+  background-color: #fafafa;
+}
+
+/*****************
+* Browsers icons *
+*****************/
+
+.browsers-list {
+  width: 50px;
+}
+
+/*****************
+* Browsers icons *
+*****************/
+
+.docs img {
+  display: block;
+  margin: 0 auto;
+}
+
+@media print {
+  header,
+  nav,
+  footer,
+  .dont-print {
+    display: none;
+  }
+}
+
+/*************************
+* Teaser group with icon *
+*************************/
+
+@media only screen and (min-width: 640px) {
+  .flex-row {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .flex-column {
+      flex: 1 1 auto;
+  }
+
+  .no-shrink {
+      flex-shrink: 0;
+  }
+
+  .gutter-right {
+      margin-right: 16px;
+  }
+
+  .flex-row .flex-column p {
+      text-align: left;
+  }
+}
+
+/**********************
+* Learning the basics *
+***********************/
+
+.annotated {
+  margin: 1.5em auto;
+}
+
+.annotated ol {
+  padding: 0;
+  display: flex;
+}
+
+.annotated li {
+  list-style: none;
+  width: 100%;
+  text-align: center;
+}
+
+.annotated li:first-child {
+  text-align: left;
+}
+
+.annotated li:last-child {
+  text-align: right;
+}
+
+.annotated li span {
+  position: relative;
+}
+
+.annotated li span::before {
+  content: "|";
+  position: absolute;
+  left: 50%;
+  top: 0.9em;
+}
+
+.docs .annotated img {
+  margin: 0;
+}

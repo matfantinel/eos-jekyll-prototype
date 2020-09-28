@@ -1,0 +1,49 @@
+.linked {
+  font-size: 0;
+  margin: 24px 0;
+  white-space: nowrap;
+}
+
+.linked button,
+.linked .button {
+  border-left-width: 0;
+  border-radius: 0;
+  display: inline-block;
+  margin: 0;
+  padding: 16px;
+}
+
+.linked button:first-child,
+.linked button:active:first-child,
+.linked button:active:hover:first-child,
+.linked .button:first-child,
+.linked .button:active:first-child,
+.linked .button:active:hover:first-child {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 0;
+  border-width: 1px;
+}
+
+.linked button.flat:first-child,
+.linked button.flat:active:first-child,
+.linked button.flat:active:hover:first-child,
+.linked .button.flat:first-child,
+.linked .button.flat:active:first-child,
+.linked .button.flat:active:hover:first-child {
+  border-width: 2px;
+}
+
+.linked button:last-child,
+.linked button:active:last-child,
+.linked button:active:hover:last-child,
+.linked .button:last-child,
+.linked .button:active:last-child,
+.linked .button:active:hover:last-child {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 3px;
+  border-left-width: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 3px;
+}

@@ -1,6 +1,18 @@
 ---
 ---
 
-//@import "reset";
-@import "variables";
-@import "main";
+@import "reset";
+@import "general";
+@import "text";
+
+@import "alert";
+@import "button";
+@import "grid";
+@import "input";
+@import "legacy-warning";
+@import "linked";
+@import "modal";
+@import "navbar";
+@import "popover";
+@import "slider";
+@import "toast";

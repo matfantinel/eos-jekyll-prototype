@@ -1,0 +1,32 @@
+#legacy-warning {
+  background-color: #e35d4f;
+  box-sizing: border-box;
+  color: white;
+  padding: 2em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#legacy-warning p {
+  text-align: center;
+}
+
+#legacy-warning a {
+  color: white;
+}
+
+#legacy-warning #legacy-warning-buttons {
+  text-align: center;
+}
+
+#legacy-warning #legacy-warning-buttons a {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+#legacy-warning #legacy-warning-buttons a.suggested-action {
+  border: 1px solid;
+}

@@ -1,0 +1,71 @@
+.grid {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 32px 0;
+  text-align: center;
+  width: auto;
+}
+
+.grid > * {
+  margin: 16px;
+}
+
+.grid .grid {
+  padding: 0;
+}
+
+.grid .whole {
+  display: block;
+}
+
+@media only screen and (min-width: 640px) {
+  .grid .half {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(50% - 48px);
+  }
+
+  .grid .third {
+    width: calc(33.33% - 32px);
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 16px;
+  }
+
+  .grid .third:last-child {
+    margin-left: 16px;
+    margin-right: 0;
+  }
+
+  .grid .two-thirds {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(66% - 48px);
+  }
+
+  .grid *:only-child p,
+  .grid .two-thirds h1 + p {
+    text-align: center;
+  }
+}
+
+.third h3 {
+  text-align: center;
+}
+
+a.third {
+  color: inherit;
+}
+
+a.third:hover {
+  color: #08c;
+  fill: #08c;
+}
+
+.third .fa,
+.third .fab,
+.third .far {
+  font-size: 32px;
+  text-align: center;
+  display: block;
+}
