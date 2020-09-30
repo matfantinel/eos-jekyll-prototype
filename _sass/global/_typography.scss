@@ -1,11 +1,11 @@
 @import url('/fonts/inter.css');
 
 :root {
-  --font_ui: Inter, "Open Sans", "Noto Sans", "Roboto", "Droid Sans", sans-serif;
+  --font--ui: Inter, "Open Sans", "Noto Sans", "Roboto", "Droid Sans", sans-serif;
 }
 
 html {
-  font-family: var(--font_ui);
+  font-family: var(--font--ui);
   font-size: 5.625vw;
   font-weight: 400;
   word-spacing: -0.05em;
@@ -24,7 +24,7 @@ html {
 }
 
 a {
-  color: var(--accent-color);
+  color: var(--color--accent);
   opacity: 1;
   text-decoration-skip: ink;
   transition: opacity 250ms ease;
@@ -106,7 +106,7 @@ blockquote {
   padding-left: 1em;
   margin-right: auto;
   font-style: italic;
-  border-left: 0.125em solid var(--accent-color);
+  border-left: 0.125em solid var(--color--accent);
 
   em,
   i {
