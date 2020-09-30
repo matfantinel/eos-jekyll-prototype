@@ -1,4 +1,62 @@
-<nav>
+<header class="elementary--header">
+  <nav>
+    <ul>
+      <li>
+        <a href="{{ site.url }}{% t url_fragment %}/" class="logomark"> {% include svg/logomark.svg %} </a>
+      </li>
+      <li><a href="{{ site.url }}{% t url_fragment %}/support">{% t header.support %}</a></li>
+      <li><a href="https://developer.elementary.io" target="_self">{% t header.developer %}</a></li>
+      <li><a href="{{ site.url }}{% t url_fragment %}/get-involved">{% t header.get_involved %}</a></li>
+      <li><a href="{{ site.url }}{% t url_fragment %}/store/">{% t header.store %}</a></li>
+      <li><a href="https://blog.elementary.io" target="_self">{% t header.blog %}</a></li>
+    </ul>
+    <ul>
+      <li>
+        <a
+          href="https://www.facebook.com/elementaryos"
+          target="_blank"
+          rel="noopener"
+          data-l10n-off=""
+          title="Facebook"
+        >
+          {% include svg/facebook.svg %}
+        </a>
+      </li>
+      <li>
+        <a href="https://mastodon.social/@elementary" target="_blank" rel="noopener" data-l10n-off="" title="Mastodon"
+          >{% include svg/mastodon.svg %}</a
+        >
+      </li>
+      <li>
+        <a href="https://www.reddit.com/r/elementaryos" target="_blank" rel="noopener" data-l10n-off="" title="Reddit"
+          >{% include svg/reddit.svg %}</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://elementaryos.stackexchange.com"
+          target="_blank"
+          rel="noopener"
+          data-l10n-off=""
+          title="Stack Exchange"
+          >{% include svg/stack-exchange.svg %}</a
+        >
+      </li>
+      <li>
+        <a href="https://twitter.com/elementary" target="_blank" rel="noopener" data-l10n-off="" title="Twitter"
+          >{% include svg/twitter.svg %}</a
+        >
+      </li>
+      <li>
+        <a href="https://community-slack.elementary.io/" target="_blank" rel="noopener" data-l10n-off="" title="Slack"
+          >{% include svg/slack.svg %}</a
+        >
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<!-- <nav>
   <div class="nav-content">
     <ul>
       <li>
@@ -53,4 +111,4 @@
       </li>
     </ul>
   </div>
-</nav>
+</nav> -->

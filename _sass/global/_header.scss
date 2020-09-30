@@ -1,0 +1,51 @@
+.elementary--header {
+  nav {
+    display: flex;
+    font-size: 0;
+    justify-content: space-between;
+    overflow-x: auto;
+    padding: 0 1rem;
+
+    ul {
+      display: flex;
+      align-items: center;
+      li {
+        a {
+          display: flex;
+          align-items: center;
+          font-size: 0.85rem;
+          line-height: 2.9em;
+          padding: 0 0.65rem;
+          white-space: nowrap;
+          color: inherit;
+          fill: inherit;
+
+          svg {
+            height: 1em;
+          }
+
+          &.logomark {
+            svg {
+              height: auto;
+            }
+          }
+
+          &:hover {
+            &[title=Facebook] {
+              color: var(--color--facebook);
+              fill: var(--color--facebook);
+            }
+            &[title=Reddit] {
+              color: var(--color--reddit);
+              fill: var(--color--reddit);
+            }
+            &[title=Twitter] {
+              color: var(--color--twitter);
+              fill: var(--color--twitter);
+            }
+          }
+        }
+      }
+    }
+  }
+}
