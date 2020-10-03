@@ -1,0 +1,149 @@
+.popover {
+  position: relative;
+
+  .popover-content {
+    background: var(--color--background);
+    border-radius: 5px;
+    border: 1px solid var(--color--border);
+    box-shadow: var(--shadow--level-1);
+
+    position: absolute;
+    width: 200px;
+    bottom: 30px;
+    left: -70px;
+    z-index: 2;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 250ms, opacity 250ms;
+
+    &::before,
+    &::after {
+      border: 10px outset transparent;
+      content: '';
+      display: block;
+      height: 0;
+      left: 50%;
+      margin-left: -5px;
+      position: absolute;
+      width: 0;
+    }
+
+    &::before {
+      border-top: 10px solid var(--color--border);
+      bottom: -20px;
+    }
+
+    &::after {
+      border-top: 10px solid var(--color--background);
+      bottom: -18px;
+    }
+
+    strong {
+      display: block;
+      margin: 15px 15px 10px 15px;
+    }
+
+    ul {
+      display: inherit;
+      padding-bottom: 5px;
+      max-height: 50vh;
+      overflow-y: auto;
+
+      li {
+        margin: 0;
+        padding: 0;
+        line-height: 1rem;
+
+        a {
+          padding: 5px 15px;
+          flex: 1;
+
+          &:hover {
+            background: var(--color--border);
+          }
+        }
+      }
+    }
+  }
+
+  &.active {
+    .popover-content {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}
+
+// .popover {
+//   position: relative;
+// }
+
+// .popover .popover-content {
+//   background: white;
+//   border-radius: 5px;
+//   border: 1px solid rgba(0, 0, 0, 0.2);
+//   bottom: 30px;
+//   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+//   color: #333;
+//   left: -70px;
+//   opacity: 0;
+//   position: absolute;
+//   text-align: left;
+//   transition: visibility 0s 250ms, opacity 250ms;
+//   visibility: hidden;
+//   width: 200px;
+//   z-index: 2;
+// }
+
+// .popover.active .popover-content {
+//   opacity: 1;
+//   transition: opacity 250ms;
+//   visibility: visible;
+// }
+
+// .popover .popover-content strong {
+//   display: inline-block;
+//   margin: 15px;
+//   margin-bottom: 10px;
+// }
+
+// .popover .popover-content ul {
+//   height: 50vh;
+//   margin: 5px 0;
+//   max-height: 500px;
+//   overflow: auto;
+//   padding: 0;
+// }
+
+// @media (max-height: 700px) {
+//   .popover .popover-content ul {
+//     max-height: 300px;
+//   }
+// }
+
+// @media (max-height: 450px) {
+//   .popover .popover-content ul {
+//     max-height: 200px;
+//   }
+// }
+
+// .popover .popover-content ul li {
+//   display: block;
+//   margin: 0;
+// }
+
+// .popover .popover-content ul li a {
+//   display: block;
+//   padding: 5px 15px;
+// }
+
+// .popover .popover-content ul li a:hover {
+//   background-color: #e0e0e0;
+// }
+
+// .popover .popover-content hr {
+//   background: #e0e0e0;
+//   border: 0;
+//   height: 1px;
+// }

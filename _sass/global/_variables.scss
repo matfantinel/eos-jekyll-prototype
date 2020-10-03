@@ -2,9 +2,12 @@
   --color--background: #ffffff;
   --color--foreground: #333333;
   --color--accent: var(--color--blueberry-500);
+  --color--border: rgba(0, 0, 0, 0.2);
+  
+  --shadow--level-1: 0 0 10px rgba(0, 0, 0, 0.2);
 
   // Accent colors for third-party links
   --color--facebook: #19227e;
   --color--reddit: #ff4500;
-  --color--twitter: #1da1f2;  
+  --color--twitter: #1da1f2;
 }

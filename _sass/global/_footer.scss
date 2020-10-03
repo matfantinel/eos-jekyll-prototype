@@ -1,0 +1,47 @@
+.elementary--footer {
+  color: var(--color-foreground);
+  fill: var(--color-foreground);
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 0;
+    padding: 0.5rem 0;
+
+    ul {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+
+      li :not() {
+        display: flex;
+        align-items: center;
+        font-size: 0.65rem;
+        line-height: 2.5em;
+        padding: 0 0.45rem;
+        white-space: nowrap;
+        color: inherit;
+        fill: inherit;
+
+        a {
+          color: inherit;
+          fill: inherit;
+
+          &.popover-trigger {
+            display: flex;
+            align-items: center;
+            svg {
+              margin-right: .2rem;
+            }
+          }
+          
+        }
+
+        svg {
+          height: 1em;
+        }
+      }
+    }
+  }
+}
