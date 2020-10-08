@@ -1,18 +1,11 @@
-:root {
-  --color--accent: var(--color--blueberry-500);
-  --color--accent-100: var(--color--blueberry-100);
-  --color--accent-300: var(--color--blueberry-300);
-  --color--accent-700: var(--color--blueberry-700);
-  --color--accent-900: var(--color--blueberry-900);
-  
-  --color--background: #ffffff;
-  --color--foreground: #333333;
-  --color--border: rgba(0, 0, 0, 0.2);
-  
-  --shadow--level-1: 0 0 10px rgba(0, 0, 0, 0.2);
+$palette-accent: $palette-blueberry;
+$color-accent: map-get($palette-accent, 500);
+$color-background: #FFFFFF;
+$color-foreground-dark: #333333;
+$color-foreground-light: #FFFFFF;
+$color-border: rgba(0, 0, 0, 0.2);
 
-  // Accent colors for third-party links
-  --color--facebook: #19227e;
-  --color--reddit: #ff4500;
-  --color--twitter: #1da1f2;
-}
+// Accent colors for third-party links
+$color-facebook: #19227e;
+$color-reddit: #ff4500;
+$color-twitter: #1da1f2;

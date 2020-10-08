@@ -1,0 +1,28 @@
+{% assign colorName = include.colorName %} {% assign friendlyName = include.friendlyName %}
+
+<div class="color-palette-box">
+  <div class="color-palette-header color-{{colorName}}-500">
+    <span class="color-palette-title">{{ friendlyName }}</span>
+    <span class="hex-color" data-l10n-off="1"></span>
+  </div>
+  <div class="color-palette-item color-{{colorName}}-100">
+    <span>{{ friendlyName }} 100</span>
+    <span class="hex-color" data-l10n-off="1"></span>
+  </div>
+  <div class="color-palette-item color-{{colorName}}-300">
+    <span>{{ friendlyName }} 300</span>
+    <span class="hex-color" data-l10n-off="1"></span>
+  </div>
+  <div class="color-palette-item color-{{colorName}}-500">
+    <span>{{ friendlyName }} 500</span>
+    <span class="hex-color" data-l10n-off="1"></span>
+  </div>
+  <div class="color-palette-item color-{{colorName}}-700">
+    <span>{{ friendlyName }} 700</span>
+    <span class="hex-color" data-l10n-off="1"></span>
+  </div>
+  <div class="color-palette-item color-{{colorName}}-900">
+    <span>{{ friendlyName }} 900</span>
+    <span class="hex-color" data-l10n-off="1"></span>
+  </div>
+</div>

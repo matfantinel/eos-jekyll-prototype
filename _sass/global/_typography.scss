@@ -1,7 +1,8 @@
 @import url('/fonts/inter.css');
 
 :root {
-  --font--ui: Inter, "Open Sans", "Noto Sans", "Roboto", "Droid Sans", sans-serif;
+  --font--ui: Inter, 'Open Sans', 'Noto Sans', 'Roboto', 'Droid Sans', sans-serif;
+  --font--mono: monospace;
 }
 
 body {
@@ -23,12 +24,13 @@ body {
   }
 }
 
-strong, b {
+strong,
+b {
   font-weight: 700;
 }
 
 a {
-  color: var(--color--accent);
+  color: $color-accent;
   opacity: 1;
   text-decoration-skip: ink;
   transition: opacity 250ms ease;
@@ -40,7 +42,14 @@ a {
 }
 
 code {
-  font-family: monospace;
+  font-family: var(--font--mono);
+}
+
+span.hex {
+  font-family: var(--font--mono);
+  &:before {
+    content: '#';
+  }
 }
 
 // article {
@@ -114,7 +123,7 @@ code {
 //   padding-left: 1em;
 //   margin-right: auto;
 //   font-style: italic;
-//   border-left: 0.125em solid var(--color--accent);
+//   border-left: 0.125em solid $color-accent;
 
 //   em,
 //   i {

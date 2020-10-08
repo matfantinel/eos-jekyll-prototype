@@ -1,8 +1,8 @@
 html,
 body {
-  background-color: var(--color--background);
-  color: var(--color--foreground);
-  fill: var(--color--foreground);
+  background-color: $color-background;
+  color: $color-foreground-dark;
+  fill: $color-foreground-dark;
   margin: 0;
   min-height: 100vh;
   overflow-x: hidden;
@@ -30,7 +30,7 @@ ul {
 }
 
 hr {
-  background: var(--color--border);
+  background: $color-border;
   border: 0;
   height: 1px;
 }

@@ -2,11 +2,13 @@
 ---
 
 @import "global/reset";
+@import "global/functions";
 @import "global/palette";
 @import "global/variables";
 @import "global/typography";
 @import "global/general";
 @import "global/button";
+@import "global/_color-palette-box";
 
 @import "global/docs";
 

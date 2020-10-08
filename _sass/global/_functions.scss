@@ -1,0 +1,8 @@
+@function get-text-color($color) {  
+  @if (lightness( $color ) > 50) {
+    @return $color-foreground-dark;
+  }
+  @else {
+    @return $color-foreground-light;
+  }
+}

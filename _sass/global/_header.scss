@@ -34,16 +34,16 @@
 
           &:hover {
             &[title=Facebook] {
-              color: var(--color--facebook);
-              fill: var(--color--facebook);
+              color: $color-facebook;
+              fill: $color-facebook;
             }
             &[title=Reddit] {
-              color: var(--color--reddit);
-              fill: var(--color--reddit);
+              color: $color-reddit;
+              fill: $color-reddit;
             }
             &[title=Twitter] {
-              color: var(--color--twitter);
-              fill: var(--color--twitter);
+              color: $color-twitter;
+              fill: $color-twitter;
             }
           }
         }
