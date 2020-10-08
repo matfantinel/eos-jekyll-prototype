@@ -5,12 +5,11 @@ url: default
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- <title>{% if page.title %}{% t page.title %} – {% endif %}{% t global.site_title %}</title> -->
-    <title>{% t page.title %}</title>
+    <title>{% if page.title %}{% t page.title %} ⋅ {% endif %}{% t global.site_title %}</title>
 
     {% include base/meta.html %}
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/style.css" />
   </head>
 
   <body>
