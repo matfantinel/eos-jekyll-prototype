@@ -31,3 +31,15 @@ bundle exec jekyll serve --host 0.0.0.0
 ```
 
 The site should now be available at http://0.0.0.0:4000/ on your local machine, and your local machine's IP address on your network—great for testing on mobile OSes.
+
+### Publish to demo site
+
+Make Jekyll build the site:
+```shell
+bundle exec jekyll build
+```
+
+Then, push just the _site folder to gh-pages branch:
+```shell
+git subtree push --prefix _site origin gh-pages
+```
