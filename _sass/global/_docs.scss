@@ -58,6 +58,7 @@
 
   ul, ol {    
     margin-left: 2rem;
+    width: calc(100% - 2rem);
     width: 100%;
 
     li {
@@ -73,6 +74,7 @@
 
   ol {
     margin-left: 5rem;
+    width: calc(100% - 5rem);
   }
 
   img {
