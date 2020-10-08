@@ -1,6 +1,8 @@
 title: elementaryOS
 description: The fast, open, and privacy-respecting replacement for Windows and macOS
 permalink: /:title/
+# Temporary url. Use this if it's inside a path and not at the root of the domain e.g. fantinel.dev/eos-jekyll-prototype
+url: /eos-jekyll-prototype
 
 #
 # Flags below are optional
