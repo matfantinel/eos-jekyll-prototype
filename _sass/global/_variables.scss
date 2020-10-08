@@ -1,7 +1,12 @@
 :root {
+  --color--accent: var(--color--blueberry-500);
+  --color--accent-100: var(--color--blueberry-100);
+  --color--accent-300: var(--color--blueberry-300);
+  --color--accent-700: var(--color--blueberry-700);
+  --color--accent-900: var(--color--blueberry-900);
+  
   --color--background: #ffffff;
   --color--foreground: #333333;
-  --color--accent: var(--color--blueberry-500);
   --color--border: rgba(0, 0, 0, 0.2);
   
   --shadow--level-1: 0 0 10px rgba(0, 0, 0, 0.2);

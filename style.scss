@@ -6,7 +6,11 @@
 @import "global/variables";
 @import "global/typography";
 @import "global/general";
+@import "global/button";
 
+@import "global/docs";
+
+// Components below could be added to github.com/elementary/web-styles in the future
 @import "global/header";
 @import "global/footer";
 @import "global/popover";

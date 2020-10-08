@@ -1,0 +1,84 @@
+.docs-container {
+  display: grid;
+  grid-template-columns:
+    1fr
+    #{'min(65ch, 100%)'} // it's wrapped like this because Jekyll's Sass compiler is dumb and doesnt accept ch and % together
+    1fr;
+
+  > * {
+    grid-column: 2;
+  }
+
+  section {
+    margin: 2rem 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+
+    @media (min-width: 320px) {
+      font-size: 2rem;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 3rem;
+    }
+  }
+
+  h2 {
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+    opacity: .8;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    line-height: 1.85;
+    margin: .5rem 0;
+    font-size: 1rem;
+    width: 100%;
+
+    &.featured-paragraph {
+      font-size: 1.2rem;
+    }
+  }
+
+  ul, ol {    
+    margin-left: 2rem;
+    width: 100%;
+
+    li {
+      line-height: 1.85;
+      margin: 1rem 0;
+      font-size: 1rem;
+    }
+  }
+
+  ul {
+    list-style: initial;
+  }
+
+  ol {
+    margin-left: 5rem;
+  }
+
+  img {
+    width: auto;
+    max-height: 400px;
+    max-width: 100%;
+    margin: 2rem 0;
+  }
+}
