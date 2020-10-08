@@ -34,12 +34,12 @@ The site should now be available at http://0.0.0.0:4000/ on your local machine, 
 
 ### Publish to demo site
 
-First, commit your changes to the master branch or whatever branch you're currently on.
-
-Then, make Jekyll build the site:
+Make Jekyll build the site:
 ```shell
 bundle exec jekyll build
 ```
+
+Then, commit your changes to the master branch or whatever branch you're currently on.
 
 Then, push just the _site folder to gh-pages branch:
 ```shell
