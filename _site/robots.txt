@@ -1,0 +1,1 @@
+Sitemap: /eos-jekyll-prototype/sitemap.xml
