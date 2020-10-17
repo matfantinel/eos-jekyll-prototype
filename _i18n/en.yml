@@ -39,3 +39,46 @@ home:
 
 brand:
   title: "Brand"
+  featured_paragraph: "The elementary brand is unique: technically it belongs to elementary, Inc., the company that guides and supports development of elementary products. However, we have a great community and don’t want to be too overbearing with legal requirements and technicalities. As such, we have written up some guidelines to make it easier to understand when and how the elementary brand should be used."
+  company_product_names:
+    title: "Company and Product Names"
+    paragraph_1: "The word <strong>elementary</strong> is a trademark of elementary, Inc. to refer to the company itself. It is always lower-case, even when beginning sentences. It may also be used along with product names (i.e. “elementary OS”) to refer to a specific product of elementary, Inc."
+    paragraph_2: "The primary product of elementary, Inc. is <strong>elementary OS</strong>. For clarity, elementary OS should never be shortened to “elementary” or any abbreviation."
+  brand_marks:
+    title: "Brand Marks"
+    paragraph_1: "elementary, Inc. claims two marks: the <strong>“elementary” logotype</strong> and the <strong>“e” logomark</strong>. Both are considered trademarks and represent elementary, Inc."
+    paragraph_2: "Both should be used with the following in mind:"
+    guidelines:
+      item_1: "Do not stretch, skew, rotate, flip, or otherwise alter the marks."
+      item_2: "Do not use the marks on an overly-busy background; solid colors work best."
+      item_3: "The marks should always be monochromatic; typically white if on a dark background, or black if on a light background."
+    logotype:
+      title: "Logotype"
+      paragraph_1: "The logotype is to be used when space allows to refer to elementary, Inc., or it can be used before a product name to refer to a specific product of elementary, Inc."
+      paragraph_2: "The logotype should always be used under the following guidelines:"
+      guidelines:
+        item_1: "Do not attempt to recreate the logotype. It is a meticulously-designed brand mark, not simply “elementary” written in a specific font."
+        item_2: "Do not use the logotype at small sizes; if it is not clear, use the logomark instead."
+    logomark:
+      title: "Logomark"
+      paragraph_1: "The “e” logomark is to be used to refer to elementary, Inc. when space is constrained or a square ratio is required."
+  color:
+    title: "Color"
+    paragraph_1: "We employ the use of color combined with our name and marks to establish our brand. We use the following palette:"
+  fonts:
+    title: "Fonts"
+    paragraph_1: "For web and print, we use Inter for headings and body copy. For code blocks, we use Roboto Mono."
+    
+colors:
+  strawberry: Strawberry
+  orange: Orange
+  banana: Banana
+  lime: Lime
+  mint: Mint
+  blueberry: Blueberry
+  grape: Grape
+  bubblegum: Bubblegum
+  cocoa: Cocoa
+  silver: Silver
+  slate: Slate
+  black: Black

@@ -1,5 +1,4 @@
 @use "sass:map";
-@use "sass:string";
 
 .color-palette-grid {
   display: grid;
@@ -37,7 +36,7 @@
   }
 
   span.hex-color {
-    font-family: var(--font--mono);;
+    font-family: var(--font--mono);
   }
 
 
