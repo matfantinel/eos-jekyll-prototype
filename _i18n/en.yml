@@ -22,6 +22,26 @@ footer:
   team: Team
   open_source: Open Source
 
+404:
+  title: 404 - Page not found
+  message:
+    title: The page you’re looking for can’t be found
+    description: There isn’t anything located here. Check the web address for mispelled words and try again.
+
+colors:
+  strawberry: Strawberry
+  orange: Orange
+  banana: Banana
+  lime: Lime
+  mint: Mint
+  blueberry: Blueberry
+  grape: Grape
+  bubblegum: Bubblegum
+  cocoa: Cocoa
+  silver: Silver
+  slate: Slate
+  black: Black
+
 home:
   payment:
     pay_what_you_want: "Pay What You Want:"
@@ -30,12 +50,6 @@ home:
     download_elementaryos: Download elementary OS
     recommended_specifications: Recommended System Specifications
     custom: Custom
-
-404:
-  title: 404 - Page not found
-  message:
-    title: The page you’re looking for can’t be found
-    description: There isn’t anything located here. Check the web address for mispelled words and try again.
 
 brand:
   title: "Brand"
@@ -67,18 +81,41 @@ brand:
     paragraph_1: "We employ the use of color combined with our name and marks to establish our brand. We use the following palette:"
   fonts:
     title: "Fonts"
-    paragraph_1: "For web and print, we use Inter for headings and body copy. For code blocks, we use Roboto Mono."
-    
-colors:
-  strawberry: Strawberry
-  orange: Orange
-  banana: Banana
-  lime: Lime
-  mint: Mint
-  blueberry: Blueberry
-  grape: Grape
-  bubblegum: Bubblegum
-  cocoa: Cocoa
-  silver: Silver
-  slate: Slate
-  black: Black
+    paragraph_1: "For web and print, we use Inter for headings and body copy. For code blocks, we use Roboto Mono."  
+  third_party_community:
+    title: "Third Parties & Community"
+    paragraph_1: "We invite third-party developers creating products for elementary OS to adopt certain elements of the elementary brand for consistency:"
+    guidelines:
+      item_1: "Color"
+      item_2: "Fonts"
+      item_3: "Voice/tone"
+    paragraph_2: "However, to avoid user confusion, we do restrict the usage of the elementary name and marks:"
+    restrictions:
+      item_1: "You are encouraged to say that your app or service is “designed for elementary OS,” but do not use the elementary name or marks as part of the name of your company, application, product, or service—or in any logo you create."
+      item_2: "Only use the elementary name or marks to refer to elementary, Inc. or its products (i.e. elementary OS)."
+    community: 
+      title: "Community"
+      paragraph_1: "Community products (sites, fan clubs, etc.) are encouraged to use the elementary Community logo:"
+      paragraph_2: "This helps establish the product as part of the overall community while reducing confusion that can arise from using the elementary, Inc. logomark."
+  hardware:
+    title: "Hardware Distributors"
+    paragraph_1: "As long as our software carries the elementary branding, the experience must be consistent—whether the OS was downloaded from our website or pre-installed on a hardware product."
+    paragraph_2: "The software components of elementary OS may be modified and redistributed according to the open source terms of the software’s licensing; however, the above branding and trademarks may only be redistributed under one or more of the following conditions:"
+    conditions:
+      item_1: "The software remains substantially unchanged; including default apps, stylesheet and iconography, etc., or"
+      item_2: "Software modifications are approved by elementary, Inc."
+    paragraph_3: "Drivers and hardware enablement are of course acceptable. We understand that distributor branding (i.e. default wallpapers) can be important for distributors, so these modifications will typically be approved. If in doubt, email <a href=mailto:brand@elementary.io>brand@elementary.io</a> for clarification or direction."
+    paragraph_4: "If you’re unable or unwilling to follow the elementary, Inc. trademark redistribution terms, removing our trademarks from the OS is simple and straightforward:"
+    removing_trademarks:
+      item_1: "Modify the <code>DISTRIB_DESCRIPTION</code> line in the file <code>/etc/lsb-release</code> to exclude our trademarks."
+      item_2: "Replace the iconography such that the icon <code>distributor-logo</code> present in <code>/usr/share/icons/elementary/places/</code> in each of the provided sizes does not appear in the OS."
+      item_3: "Remove or replace the packages <code>plymouth-theme-elementary</code> and <code>plymouth-theme-elementary-text</code>."
+    paragraph_5: "For more information about OEMs and hardware distributors, see our"
+    link_text: "information for OEMs"
+  merchandise:
+    title: "Merchandise"
+    paragraph_1: "We do not authorize our branding (including our name or brand marks) to be used on third-party merchandise without explicit written approval."
+  assets:
+    title: "Assets & More Info"
+    button_text: "Download on GitHub"
+    paragraph_1: "For further information regarding the use of the elementary name, branding, and trademarks, please email"

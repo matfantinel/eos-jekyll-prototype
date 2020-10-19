@@ -77,101 +77,63 @@ permalink: brand
 </section>
 
 <section>
-  <h2>Third Parties & Community</h2>
-  <p>
-    We invite third-party developers creating products for elementary OS to adopt certain elements of the elementary
-    brand for consistency:
-  </p>
+  <h2>{% t brand.third_party_community.title %}</h2>
+  <p>{% t brand.third_party_community.paragraph_1 %}</p>
   <ul>
-    <li>Color</li>
-    <li>Fonts</li>
-    <li>Voice/tone</li>
+    <li>{% t brand.third_party_community.guidelines.item_1 %}</li>
+    <li>{% t brand.third_party_community.guidelines.item_2 %}</li>
+    <li>{% t brand.third_party_community.guidelines.item_3 %}</li>
   </ul>
-  <p>However, to avoid user confusion, we do restrict the usage of the elementary name and marks:</p>
+  <p>{% t brand.third_party_community.paragraph_2 %}</p>
   <ul>
-    <li>
-      You are encouraged to say that your app or service is “designed for elementary OS,” but do not use the elementary
-      name or marks as part of the name of your company, application, product, or service—or in any logo you create.
-    </li>
-    <li>Only use the elementary name or marks to refer to elementary, Inc. or its products (i.e. elementary OS).</li>
+    <li>{% t brand.third_party_community.restrictions.item_1 %}</li>
+    <li>{% t brand.third_party_community.restrictions.item_2 %}</li>
   </ul>
 </section>
 
 <section>
-  <h3>Community</h3>
-  <p>Community products (sites, fan clubs, etc.) are encouraged to use the elementary Community logo:</p>
-  <div class="flex">
+  <h3>{% t brand.third_party_community.community.title %}</h3>
+  <p>{% t brand.third_party_community.community.paragraph_1 %}</p>
+  <div class="flex center">
     <img src="{{ site.url }}/images/brand/community-color.png" />
     <img src="{{ site.url }}/images/brand/community-black.png" />
   </div>
-  <p>
-    This helps establish the product as part of the overall community while reducing confusion that can arise from using
-    the elementary, Inc. logomark.
-  </p>
+  <p>{% t brand.third_party_community.community.paragraph_2 %}</p>
 </section>
 
 <section>
-  <h2>Hardware Distributors</h2>
-  <p>
-    As long as our software carries the elementary branding, the experience must be consistent—whether the OS was
-    downloaded from our website or pre-installed on a hardware product.
-  </p>
-  <p>
-    The software components of elementary OS may be modified and redistributed according to the open source terms of the
-    software’s licensing; however, the above branding and trademarks may only be redistributed under one or more of the
-    following conditions:
-  </p>
+  <h2>{% t brand.hardware.title %}</h2>
+  <p>{% t brand.hardware.paragraph_1 %}</p>
+  <p>{% t brand.hardware.paragraph_2 %}</p>
 
   <ol>
-    <li>The software remains substantially unchanged; including default apps, stylesheet and iconography, etc., or</li>
-    <li>Software modifications are approved by elementary, Inc.</li>
+    <li>{% t brand.hardware.conditions.item_1 %}</li>
+    <li>{% t brand.hardware.conditions.item_2 %}</li>
   </ol>
 
-  <p>
-    Drivers and hardware enablement are of course acceptable. We understand that distributor branding (i.e. default
-    wallpapers) can be important for distributors, so these modifications will typically be approved. If in doubt, email
-    <a href="mailto:brand@elementary.io">brand@elementary.io</a> for clarification or direction.
-  </p>
-  <p>
-    If you’re unable or unwilling to follow the elementary, Inc. trademark redistribution terms, removing our trademarks
-    from the OS is simple and straightforward:
-  </p>
+  <p>{% t brand.hardware.paragraph_3 %}</p>
+  <p>{% t brand.hardware.paragraph_4 %}</p>
   <ol>
-    <li>
-      Modify the <code>DISTRIB_DESCRIPTION</code> line in the file <code>/etc/lsb-release</code> to exclude our
-      trademarks.
-    </li>
-    <li>
-      Replace the iconography such that the icon <code>distributor-logo</code> present in
-      <code>/usr/share/icons/elementary/places/</code> in each of the provided sizes does not appear in the OS.
-    </li>
-    <li>
-      Remove or replace the packages <code>plymouth-theme-elementary</code> and
-      <code>plymouth-theme-elementary-text</code>.
-    </li>
+    <li>{% t brand.hardware.removing_trademarks.item_1 %}</li>
+    <li>{% t brand.hardware.removing_trademarks.item_2 %}</li>
+    <li>{% t brand.hardware.removing_trademarks.item_3 %}</li>
   </ol>
 
-  <p>
-    For more information about OEMs and hardware distributors, see our
-    <a href="{{ site.url }}{% t url_fragment %}/oem">information for OEMs</a>.
-  </p>
+  <p>{% t brand.hardware.paragraph_5 %}<a href="{{ site.url }}{% t url_fragment %}/oem"> {% t brand.hardware.link_text %}</a>.</p>
 </section>
 
 <section>
-  <h2>Merchandise</h2>
-  <p>
-    We do not authorize our branding (including our name or brand marks) to be used on third-party merchandise without
-    explicit written approval.
-  </p>
+  <h2>{% t brand.merchandise.title %}</h2>
+  <p>{% t brand.merchandise.paragraph_1 %}</p>
 </section>
 
 <section>
-  <h2>Assets & More Info</h2>
+  <h2>{% t brand.assets.title %}</h2>
   <a class="btn suggested-action" href="https://github.com/elementary/brand" target="_blank" rel="noopener">
-    {% include svg/github.svg %} Download on GitHub
+    {% include svg/github.svg %} {% t brand.assets.button_text %}
   </a>
   <p>
-    For further information regarding the use of the elementary name, branding, and trademarks, please email
-    <a href="mailto:brand@elementary.io">brand@elementary.io</a>.
+    {% t brand.assets.paragraph_1 %}
+     <a href="mailto:brand@elementary.io">brand@elementary.io</a>.
   </p>
 </section>

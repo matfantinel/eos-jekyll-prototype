@@ -22,6 +22,26 @@ footer:
   team: Equipe
   open_source: Código Aberto
 
+404:
+  title: 404 - Página não encontrada
+  message:
+    title: A página que você está procurando não foi encontrada
+    description: Não há nada aqui. Verifique se o endereço digitado não possui nenhum erro e tente novamente.
+
+colors:
+  strawberry: Morango
+  orange: Laranja
+  banana: Banana
+  lime: Limão
+  mint: Menta
+  blueberry: Mirtilo
+  grape: Uva
+  bubblegum: Chiclete
+  cocoa: Cacau
+  silver: Prata
+  slate: Ardósia
+  black: Preto
+
 home:
   payment:
     pay_what_you_want: "Pague o que quiser:"
@@ -31,11 +51,71 @@ home:
     recommended_specifications: Especificações de Sistema Recomendadas
     custom: Personalizar
 
-404:
-  title: 404 - Página não encontrada
-  message:
-    title: A página que você está procurando não foi encontrada
-    description: Não há nada aqui. Verifique se o endereço digitado não possui nenhum erro e tente novamente.
-
 brand:
-  title: Marca
+  title: "Marca"
+  featured_paragraph: "A marca elementary é única: tecnicamente ela pertence a elementary, Inc., a empresa que guia e suporta o desenvolvimento dos produtos elementary. Entretanto, temos uma comunidade incrível e não queremos ter requisitos legais e tecnicalidades exageradas. Assim, escrevemos algumas regras que deixam fácil de entender quando e como a marca elementary deve ser usada."
+  company_product_names:
+    title: "Nomes da Empresa e dos Produtos"
+    paragraph_1: "A palavra <strong>elementary</strong> é uma marca registrada da elementary, Inc. para se referir à própria empresa. Ela é sempre escrita com letras minúsculas, mesmo no início de frases. Também pode ser usada junto com os nomes de nossos produtos (como elementary OS) para se referir ao produto específico da elementary, Inc."
+    paragraph_2: "O produto principal da elementary, Inc. é o <strong>elementary OS</strong>. Para maior clareza, elementary OS nunca deve ser abreviado para “elementary“ ou qualquer outra abreviação."
+  brand_marks:
+    title: "Marca Visual"
+    paragraph_1: "A elementary, Inc. possui duas marcas visuais: o logotipo <strong>“elementary” logotype</strong> e a <strong>logomarca “e”</strong>. Ambas são consideradas marcas registradas e representam elementary, Inc."    
+    paragraph_2: "Ambas devem ser usadas com o seguinte em mente:"
+    guidelines:
+      item_1: "Não esticar, deformar, rotacionar, inverter ou alterar as marcas de qualquer maneira."
+      item_2: "Não utilize as marcas em um fundo complexo; cores sólidas funcionam melhor"
+      item_3: "As marcas devem sempre ser monocromáticas; geralmente brancas se o fundo for escuro, ou pretas se o fundo for claro."
+    logotype:
+      title: "Logotipo"
+      paragraph_1: "O logotipo deve ser usado quando tiver espaço suficiente para representar elementary, Inc., ou pode ser usado antes do nome de um produto que pertence a elementary, Inc."
+      paragraph_2: "O logotipo deve sempre ser usado sob as seguintes regras:"
+      guidelines:
+        item_1: "Não tente recriar o logotipo. Se trata de uma marca meticulosamente desenhada, e não apenas “elementary” escrito em uma fonte específica."
+        item_2: "Não use o logotipo em tamanhos pequenos; se ele não estiver claro, use a logomarca em seu lugar."
+    logomark:
+      title: "Logomarca"
+      paragraph_1: "A logomarca “e” deve ser usada para representar elementary, Inc. quando o espaço é limitado ou um formato quadrado é necessário."
+  color:
+    title: "Cores"
+    paragraph_1: "Utilizamos cores em combinação com nosso nome e logotipo para estabelecer nossa marca. Utilizamos a seguinte paleta de cores:"
+  fonts:
+    title: "Fontes"
+    paragraph_1: "Para web e impressão, usamos a fonte Inter para cabeçalhos e parágrafos. Para blocos de código, utilizamos Roboto Mono."  
+  third_party_community:
+    title: "Comunidade e Terceiros"
+    paragraph_1: "Convidamos que desenvolvedores terceiros criando produtos para o elementary OS adotem certos elementos de nossa marca para haver consistência:"
+    guidelines:
+      item_1: "Cores"
+      item_2: "Fontes"
+      item_3: "Tom de comunicação"
+    paragraph_2: "Porém, para evitar a confusão dos usuários, nós restringimos o uso da marca elementary:"
+    restrictions:
+      item_1: "Você é encorajado a dizer que sua aplicação ou serviço é “feito para elementary OS“, mas não use o nome ou marcas da elementary, Inc. como parte do nome de sua empresa, aplicação, produto, serviço, ou em qualquer logo que você crie."
+      item_2: "Você pode usar o nome e marcas apenas para se referir a elementary, Inc. ou seus produtos (como o elementary OS)."
+    community: 
+      title: "Comunidade"
+      paragraph_1: "Produtos da comunidade (sites, fã-clubes, etc.) são encorajados a usar o logo da Comunidade elementary:"
+      paragraph_2: "Isso ajuda a estabelecer o produto como parte da comunidade em geral, enquanto reduz a confusão que pode surgir caso a logomarca da elementary, Inc. fosse usada."
+  hardware:
+    title: "Distribuidores de Hardware"
+    paragraph_1: "Enquanto nosso software carregar a marca elementary, a experiência deve ser consistente — independente de se o SO foi baixado de nosso site ou pré-instalado em um computador."
+    paragraph_2: "Os componentes de software do elementary OS pode ser modificados e redistribuídos de acordo com os termos da licença, disponíveis em seu código aberto; porém, a marca estabelecida acima só pode ser redistribuída sob as devidas condições:"
+    conditions:
+      item_1: "O software não sofreu mudanças substanciais; incluindo aplicativos padrões, aparência e iconografia, etc., ou"
+      item_2: "Modificações no software foram aprovadas pela elementary, Inc."
+    paragraph_3: "Drivers e adaptações de hardware são, claro, aceitáveis. Entendemos que a marca dos distribuidores (como papéis de parede) podem ser importantes, portanto essas modificações serão tipicamente aprovadas. Em caso de dúvidas, mande um email para <a href=mailto:brand@elementary.io>brand@elementary.io</a> para clarificações ou instruções."
+    paragraph_4: "Se você não puder ou não quiser seguir os termos de redistribuição da marca elementary, remover nossa marca registrada do SO é simples:"
+    removing_trademarks:
+      item_1: "Modifique a linha <code>DISTRIB_DESCRIPTION</code> no arquivo <code>/etc/lsb-release</code> para remover nossa marca."
+      item_2: "Substitua a iconografia para que o ícone <code>distributor-logo</code> presente em <code>/usr/share/icons/elementary/places/</code> em cada um dos tamanhos fornecidos não apareça no SO."
+      item_3: "Remova ou substitua os pacotes <code>plymouth-theme-elementary</code> e <code>plymouth-theme-elementary-text</code>."
+    paragraph_5: "Para mais informações sobre OEMs e distribuidores de hardware, veja nossas"
+    link_text: "informações para OEMs"
+  merchandise:
+    title: "Merchandise"
+    paragraph_1: "Não autorizamos que nossa marca (incluindo o nome, logotipo e logomarca) seja usada em merchandise de terceiros sem autorização por escrito."
+  assets:
+    title: "Recursos e Mais Informações"
+    button_text: "Baixar no GitHub"
+    paragraph_1: "Para mais informações sobre o uso do nome, marca, logotipo e logomarca da elementary, Inc. favor enviar um email para"
