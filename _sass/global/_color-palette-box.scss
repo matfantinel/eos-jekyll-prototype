@@ -35,442 +35,257 @@
     font-size: 1rem;
   }
 
-  span.hex-color {
-    font-family: var(--font--mono);
-  }
-
-
   .color-strawberry-100 {
     background-color: map-get($palette-strawberry, 100);
     color: get-text-color(map-get($palette-strawberry, 100));
-    span.hex-color:after {
-      content: "#{map-get($palette-strawberry, 100)}";
-    }
   }
   .color-strawberry-300 {
     background-color: map-get($palette-strawberry, 300);
     color: get-text-color(map-get($palette-strawberry, 300));
-    span.hex-color:after {
-      content: "#{map-get($palette-strawberry, 300)}";
-    }
   }
   .color-strawberry-500 {
     background-color: map-get($palette-strawberry, 500);
     color: get-text-color(map-get($palette-strawberry, 500));
-    span.hex-color:after {
-      content: "#{map-get($palette-strawberry, 500)}";
-    }
   }
   .color-strawberry-700 {
     background-color: map-get($palette-strawberry, 700);
     color: get-text-color(map-get($palette-strawberry, 700));
-    span.hex-color:after {
-      content: "#{map-get($palette-strawberry, 700)}";
-    }
   }
   .color-strawberry-900 {
     background-color: map-get($palette-strawberry, 900);
     color: get-text-color(map-get($palette-strawberry, 900));
-    span.hex-color:after {
-      content: "#{map-get($palette-strawberry, 900)}";
-    }
   }
 
   .color-orange-100 {
     background-color: map-get($palette-orange, 100);
     color: get-text-color(map-get($palette-orange, 100));
-    span.hex-color:after {
-      content: "#{map-get($palette-orange, 100)}";
-    }
   }
   .color-orange-300 {
     background-color: map-get($palette-orange, 300);
     color: get-text-color(map-get($palette-orange, 300));
-    span.hex-color:after {
-      content: "#{map-get($palette-orange, 300)}";
-    }
   }
   .color-orange-500 {
     background-color: map-get($palette-orange, 500);
     color: get-text-color(map-get($palette-orange, 500));
-    span.hex-color:after {
-      content: "#{map-get($palette-orange, 500)}";
-    }
   }
   .color-orange-700 {
     background-color: map-get($palette-orange, 700);
     color: get-text-color(map-get($palette-orange, 700));
-    span.hex-color:after {
-      content: "#{map-get($palette-orange, 700)}";
-    }
   }
   .color-orange-900 {
     background-color: map-get($palette-orange, 900);
     color: get-text-color(map-get($palette-orange, 900));
-    span.hex-color:after {
-      content: "#{map-get($palette-orange, 900)}";
-    }
   }
 
   .color-banana-100 {
     background-color: map-get($palette-banana, 100);
     color: get-text-color(map-get($palette-banana, 100));
-    span.hex-color:after {
-      content: "#{map-get($palette-banana, 100)}";
-    }
   }
   .color-banana-300 {
     background-color: map-get($palette-banana, 300);
     color: get-text-color(map-get($palette-banana, 300));
-    span.hex-color:after {
-      content: "#{map-get($palette-banana, 300)}";
-    }
   }
   .color-banana-500 {
     background-color: map-get($palette-banana, 500);
     color: get-text-color(map-get($palette-banana, 500));
-    span.hex-color:after {
-      content: "#{map-get($palette-banana, 500)}";
-    }
   }
   .color-banana-700 {
     background-color: map-get($palette-banana, 700);
     color: get-text-color(map-get($palette-banana, 700));
-    span.hex-color:after {
-      content: "#{map-get($palette-banana, 700)}";
-    }
   }
   .color-banana-900 {
     background-color: map-get($palette-banana, 900);
     color: get-text-color(map-get($palette-banana, 900));
-    span.hex-color:after {
-      content: "#{map-get($palette-banana, 900)}";
-    }
   }
 
 
   .color-lime-100 {
     background-color: map-get($palette-lime, 100);
     color: get-text-color(map-get($palette-lime, 100));
-    span.hex-color:after {
-      content: "#{map-get($palette-lime, 100)}";
-    }
   }
   .color-lime-300 {
     background-color: map-get($palette-lime, 300);
     color: get-text-color(map-get($palette-lime, 300));
-    span.hex-color:after {
-      content: "#{map-get($palette-lime, 300)}";
-    }
   }
   .color-lime-500 {
     background-color: map-get($palette-lime, 500);
     color: get-text-color(map-get($palette-lime, 500));
-    span.hex-color:after {
-      content: "#{map-get($palette-lime, 500)}";
-    }
   }
   .color-lime-700 {
     background-color: map-get($palette-lime, 700);
     color: get-text-color(map-get($palette-lime, 700));
-    span.hex-color:after {
-      content: "#{map-get($palette-lime, 700)}";
-    }
   }
   .color-lime-900 {
     background-color: map-get($palette-lime, 900);
     color: get-text-color(map-get($palette-lime, 900));
-    span.hex-color:after {
-      content: "#{map-get($palette-lime, 900)}";
-    }
   }
 
 
   .color-mint-100 {
     background-color: map-get($palette-mint, 100);
     color: get-text-color(map-get($palette-mint, 100));
-    span.hex-color:after {
-      content: "#{map-get($palette-mint, 100)}";
-    }
   }
   .color-mint-300 {
     background-color: map-get($palette-mint, 300);
     color: get-text-color(map-get($palette-mint, 300));
-    span.hex-color:after {
-      content: "#{map-get($palette-mint, 300)}";
-    }
   }
   .color-mint-500 {
     background-color: map-get($palette-mint, 500);
     color: get-text-color(map-get($palette-mint, 500));
-    span.hex-color:after {
-      content: "#{map-get($palette-mint, 500)}";
-    }
   }
   .color-mint-700 {
     background-color: map-get($palette-mint, 700);
     color: get-text-color(map-get($palette-mint, 700));
-    span.hex-color:after {
-      content: "#{map-get($palette-mint, 700)}";
-    }
   }
   .color-mint-900 {
     background-color: map-get($palette-mint, 900);
     color: get-text-color(map-get($palette-mint, 900));
-    span.hex-color:after {
-      content: "#{map-get($palette-mint, 900)}";
-    }
   }
 
   .color-blueberry-100 {
     background-color: map-get($palette-blueberry, 100);
     color: get-text-color(map-get($palette-blueberry, 100));
-    span.hex-color:after {
-      content: "#{map-get($palette-blueberry, 100)}";
-    }
   }
   .color-blueberry-300 {
     background-color: map-get($palette-blueberry, 300);
     color: get-text-color(map-get($palette-blueberry, 300));
-    span.hex-color:after {
-      content: "#{map-get($palette-blueberry, 300)}";
-    }
   }
   .color-blueberry-500 {
     background-color: map-get($palette-blueberry, 500);
     color: get-text-color(map-get($palette-blueberry, 500));
-    span.hex-color:after {
-      content: "#{map-get($palette-blueberry, 500)}";
-    }
   }
   .color-blueberry-700 {
     background-color: map-get($palette-blueberry, 700);
     color: get-text-color(map-get($palette-blueberry, 700));
-    span.hex-color:after {
-      content: "#{map-get($palette-blueberry, 700)}";
-    }
   }
   .color-blueberry-900 {
     background-color: map-get($palette-blueberry, 900);
     color: get-text-color(map-get($palette-blueberry, 900));
-    span.hex-color:after {
-      content: "#{map-get($palette-blueberry, 900)}";
-    }
   }
 
   .color-grape-100 {
     background-color: map-get($palette-grape, 100);
     color: get-text-color(map-get($palette-grape, 100));
-    span.hex-color:after {
-      content: "#{map-get($palette-grape, 100)}";
-    }
   }
   .color-grape-300 {
     background-color: map-get($palette-grape, 300);
     color: get-text-color(map-get($palette-grape, 300));
-    span.hex-color:after {
-      content: "#{map-get($palette-grape, 300)}";
-    }
   }
   .color-grape-500 {
     background-color: map-get($palette-grape, 500);
     color: get-text-color(map-get($palette-grape, 500));
-    span.hex-color:after {
-      content: "#{map-get($palette-grape, 500)}";
-    }
   }
   .color-grape-700 {
     background-color: map-get($palette-grape, 700);
     color: get-text-color(map-get($palette-grape, 700));
-    span.hex-color:after {
-      content: "#{map-get($palette-grape, 700)}";
-    }
   }
   .color-grape-900 {
     background-color: map-get($palette-grape, 900);
     color: get-text-color(map-get($palette-grape, 900));
-    span.hex-color:after {
-      content: "#{map-get($palette-grape, 900)}";
-    }
   }
 
   .color-bubblegum-100 {
     background-color: map-get($palette-bubblegum, 100);
     color: get-text-color(map-get($palette-bubblegum, 100));
-    span.hex-color:after {
-      content: "#{map-get($palette-bubblegum, 100)}";
-    }
   }
   .color-bubblegum-300 {
     background-color: map-get($palette-bubblegum, 300);
     color: get-text-color(map-get($palette-bubblegum, 300));
-    span.hex-color:after {
-      content: "#{map-get($palette-bubblegum, 300)}";
-    }
   }
   .color-bubblegum-500 {
     background-color: map-get($palette-bubblegum, 500);
     color: get-text-color(map-get($palette-bubblegum, 500));
-    span.hex-color:after {
-      content: "#{map-get($palette-bubblegum, 500)}";
-    }
   }
   .color-bubblegum-700 {
     background-color: map-get($palette-bubblegum, 700);
     color: get-text-color(map-get($palette-bubblegum, 700));
-    span.hex-color:after {
-      content: "#{map-get($palette-bubblegum, 700)}";
-    }
   }
   .color-bubblegum-900 {
     background-color: map-get($palette-bubblegum, 900);
     color: get-text-color(map-get($palette-bubblegum, 900));
-    span.hex-color:after {
-      content: "#{map-get($palette-bubblegum, 900)}";
-    }
   }
 
   .color-cocoa-100 {
     background-color: map-get($palette-cocoa, 100);
     color: get-text-color(map-get($palette-cocoa, 100));
-    span.hex-color:after {
-      content: "#{map-get($palette-cocoa, 100)}";
-    }
   }
   .color-cocoa-300 {
     background-color: map-get($palette-cocoa, 300);
     color: get-text-color(map-get($palette-cocoa, 300));
-    span.hex-color:after {
-      content: "#{map-get($palette-cocoa, 300)}";
-    }
   }
   .color-cocoa-500 {
     background-color: map-get($palette-cocoa, 500);
     color: get-text-color(map-get($palette-cocoa, 500));
-    span.hex-color:after {
-      content: "#{map-get($palette-cocoa, 500)}";
-    }
   }
   .color-cocoa-700 {
     background-color: map-get($palette-cocoa, 700);
     color: get-text-color(map-get($palette-cocoa, 700));
-    span.hex-color:after {
-      content: "#{map-get($palette-cocoa, 700)}";
-    }
   }
   .color-cocoa-900 {
     background-color: map-get($palette-cocoa, 900);
     color: get-text-color(map-get($palette-cocoa, 900));
-    span.hex-color:after {
-      content: "#{map-get($palette-cocoa, 900)}";
-    }
   }
 
   .color-silver-100 {
     background-color: map-get($palette-silver, 100);
     color: get-text-color(map-get($palette-silver, 100));
-    span.hex-color:after {
-      content: "#{map-get($palette-silver, 100)}";
-    }
   }
   .color-silver-300 {
     background-color: map-get($palette-silver, 300);
     color: get-text-color(map-get($palette-silver, 300));
-    span.hex-color:after {
-      content: "#{map-get($palette-silver, 300)}";
-    }
   }
   .color-silver-500 {
     background-color: map-get($palette-silver, 500);
     color: get-text-color(map-get($palette-silver, 500));
-    span.hex-color:after {
-      content: "#{map-get($palette-silver, 500)}";
-    }
   }
   .color-silver-700 {
     background-color: map-get($palette-silver, 700);
     color: get-text-color(map-get($palette-silver, 700));
-    span.hex-color:after {
-      content: "#{map-get($palette-silver, 700)}";
-    }
   }
   .color-silver-900 {
     background-color: map-get($palette-silver, 900);
     color: get-text-color(map-get($palette-silver, 900));
-    span.hex-color:after {
-      content: "#{map-get($palette-silver, 900)}";
-    }
   }
 
   .color-slate-100 {
     background-color: map-get($palette-slate, 100);
     color: get-text-color(map-get($palette-slate, 100));
-    span.hex-color:after {
-      content: "#{map-get($palette-slate, 100)}";
-    }
   }
   .color-slate-300 {
     background-color: map-get($palette-slate, 300);
     color: get-text-color(map-get($palette-slate, 300));
-    span.hex-color:after {
-      content: "#{map-get($palette-slate, 300)}";
-    }
   }
   .color-slate-500 {
     background-color: map-get($palette-slate, 500);
     color: get-text-color(map-get($palette-slate, 500));
-    span.hex-color:after {
-      content: "#{map-get($palette-slate, 500)}";
-    }
   }
   .color-slate-700 {
     background-color: map-get($palette-slate, 700);
     color: get-text-color(map-get($palette-slate, 700));
-    span.hex-color:after {
-      content: "#{map-get($palette-slate, 700)}";
-    }
   }
   .color-slate-900 {
     background-color: map-get($palette-slate, 900);
     color: get-text-color(map-get($palette-slate, 900));
-    span.hex-color:after {
-      content: "#{map-get($palette-slate, 900)}";
-    }
   }
 
   .color-black-100 {
     background-color: map-get($palette-black, 100);
     color: get-text-color(map-get($palette-black, 100));
-    span.hex-color:after {
-      content: "#{map-get($palette-black, 100)}";
-    }
   }
   .color-black-300 {
     background-color: map-get($palette-black, 300);
     color: get-text-color(map-get($palette-black, 300));
-    span.hex-color:after {
-      content: "#{map-get($palette-black, 300)}";
-    }
   }
   .color-black-500 {
     background-color: map-get($palette-black, 500);
     color: get-text-color(map-get($palette-black, 500));
-    span.hex-color:after {
-      content: "#{map-get($palette-black, 500)}";
-    }
   }
   .color-black-700 {
     background-color: map-get($palette-black, 700);
     color: get-text-color(map-get($palette-black, 700));
-    span.hex-color:after {
-      content: "#{map-get($palette-black, 700)}";
-    }
   }
   .color-black-900 {
     background-color: map-get($palette-black, 900);
     color: get-text-color(map-get($palette-black, 900));
-    span.hex-color:after {
-      content: "#{map-get($palette-black, 900)}";
-    }
   }
 }
