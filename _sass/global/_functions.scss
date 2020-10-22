@@ -1,8 +1,8 @@
 @function get-text-color($color) {  
   @if (lightness( $color ) > 50) {
-    @return $color-foreground-dark;
+    @return var(--color-dark-text-ignoretheme);
   }
   @else {
-    @return $color-foreground-light;
+    @return var(--color-light-text-ignoretheme);
   }
 }

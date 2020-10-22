@@ -1,11 +1,28 @@
 $palette-accent: $palette-blueberry;
 $color-accent: map-get($palette-accent, 500);
-$color-background: #FFFFFF;
-$color-foreground-dark: #333333;
-$color-foreground-light: #FFFFFF;
-$color-border: rgba(0, 0, 0, 0.2);
 
 // Accent colors for third-party links
 $color-facebook: #19227e;
 $color-reddit: #ff4500;
 $color-twitter: #1da1f2;
+
+:root {
+  // These don't change regardless of theme
+  --color-light-text-ignoretheme: #FFFFFF;
+  --color-dark-text-ignoretheme: #333333;
+
+
+  --color-background: #FFFFFF;
+  --color-foreground-dark: #333333;
+  --color-foreground-light: #FFFFFF;
+  --color-border: rgba(0, 0, 0, 0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #333333;
+    --color-foreground-dark: #FFFFFF;
+    --color-foreground-light: #333333;
+    --color-border: rgba(255, 255, 255, 0.2);
+  }
+}
