@@ -36,7 +36,12 @@ permalink: brand
 
 <section>
   <h3>{% t brand.brand_marks.logotype.title %}</h3>
-  <img src="{{ site.url }}/images/brand/logotype.png" />
+
+  {% include base/image.html 
+    src="images/brand/logotype-black.png" 
+    darkModeSrc="images/brand/logotype-white.png"
+    alt="elementary Logotype" %}
+
   <p>{% t brand.brand_marks.logotype.paragraph_1 %}</p>
   <p>{% t brand.brand_marks.logotype.paragraph_2 %}</p>
   <ul>
@@ -47,7 +52,12 @@ permalink: brand
 
 <section>
   <h3>{% t brand.brand_marks.logomark.title %}</h3>
-  <img src="{{ site.url }}/images/brand/logomark.png" />
+  
+  {% include base/image.html 
+    src="images/brand/logomark-black.png" 
+    darkModeSrc="images/brand/logomark-white.png"
+    alt="elementary Logomark" %}
+
   <p>{% t brand.brand_marks.logomark.paragraph_1 %}</p>
 </section>
 
@@ -95,8 +105,13 @@ permalink: brand
   <h3>{% t brand.third_party_community.community.title %}</h3>
   <p>{% t brand.third_party_community.community.paragraph_1 %}</p>
   <div class="flex center">
-    <img src="{{ site.url }}/images/brand/community-color.png" />
-    <img src="{{ site.url }}/images/brand/community-black.png" />
+    {% include base/image.html 
+      src="images/brand/community-color.png"
+      alt="elementary Community logo on a colored background" %}
+    {% include base/image.html 
+      src="images/brand/community-black.png" 
+      darkModeSrc="images/brand/community-white.png"
+      alt="elementary Community logo" %}
   </div>
   <p>{% t brand.third_party_community.community.paragraph_2 %}</p>
 </section>

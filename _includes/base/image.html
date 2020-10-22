@@ -1,0 +1,10 @@
+{% assign src = include.src %}
+{% assign alt = include.alt %}
+{% assign darkModeSrc = include.darkModeSrc %}
+
+<picture>
+  {% if darkModeSrc %}
+  <source srcset="{{ site.url }}/{{ darkModeSrc }}" media="(prefers-color-scheme:dark)">
+  {% endif %}
+  <img src="{{ site.url }}/{{ src }}"  alt="{{ alt }}" loading="lazy">
+</picture>
