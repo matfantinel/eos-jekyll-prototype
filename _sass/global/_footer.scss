@@ -14,7 +14,7 @@
       align-items: center;
       flex-wrap: wrap;
 
-      li :not() {
+      li {
         display: flex;
         align-items: center;
         font-size: 0.75rem;
