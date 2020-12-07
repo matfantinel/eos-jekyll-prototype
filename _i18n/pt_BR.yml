@@ -17,7 +17,7 @@ footer:
   language_picker_inner_label: Alterar o idioma do site
   press: Imprensa
   brand: Marca
-  oem: Fabricantes
+  oem: OEMs
   privacy: Privacidade
   team: Equipe
   open_source: Código Aberto
@@ -119,3 +119,64 @@ brand:
     title: "Recursos e Mais Informações"
     button_text: "Baixar no GitHub"
     paragraph_1: "Para mais informações sobre o uso do nome, marca, logotipo e logomarca da elementary, Inc. favor enviar um email para"
+
+oem:
+  title: Informações para OEMs
+  featured_paragraph: "Dê a seus clientes a melhor experiência com o elementary OS."
+  partners_retailers:
+    title: "Parceiros e Varejistas"
+    paragraph_1: Nós oferecemos duas maneiras de ser listado como uma OEM que oferece elementary OS em <a href="https://elementary.io/store/">nossa loja</a>, com diferentes requisitos e benefícios.
+    partner:
+      title: Parceiro
+      description: Aprovação específica para um modelo, com esses modelos destacados em <a href="https://elementary.io/store/">nossa loja</a>.
+      requirements:
+        title: "Requisitos:"
+        item_1: Envolvimento oficial da elementary, Inc.
+        item_2: Royalties por computador negociáveis
+        item_3: Diretrizes de software rigorosas
+        item_4: Conformidade com a marca registrada
+    retailer:
+        title: Varejista
+        description: Um link para seu website listado em <a href="https://elementary.io/store/">nossa loja</a>.
+        requirements:
+          title: "Requisitos:"
+          item_1: Vender computadores com elementary OS Selling devices with elementary OS
+          item_2: Royalties por computador encorajados
+          item_3: Conformidade com a marca registrada
+  resources:
+    title: Recursos
+    installation:
+      title: Instalação
+      paragraph_1: Recomendamos o uso dos procedimentos de instalação embarcados no instalador do Ubuntu. OEMs podem instalar o SO, configurar o que for necessário, e então preparar o computador para enviá-lo ao usuário final.
+      ubuntu_installer_instructions: Instruções do Ubuntu
+      new_installer_note: "<strong>Obs:</strong> um novo instalador está sendo desenvolvido e irá simplificar o processo de instalação."
+      new_installer_link: Novo Instalador
+    system_settings:
+      title: Configurações do Sistema
+      paragraph_1: As Configurações do Sistema oferecem várias vantagens às OEMs que oferecem o elementary OS. De sua arquitetura plugável a fácil aplicação de seu branding, essa aplicação foi pensada com as OEMs em mente.
+      plugs:
+        title: Plugs
+        paragraph_1: Configurações do Sistema (codinome <a href="https://github.com/elementary/switchboard" target="_blank" rel="noopener">Switchboard</a>) usa um conceito de "Plugs" para prover configurações plugáveis para software e hardware. Por exemplo, <a href="https://github.com/elementary/switchboard-plug-mouse-touchpad/" target="_blank" rel="noopener">Mouse & Touchpad settings</a> são fornecidos por um plug.
+        paragraph_2:  OEMs são capazes de desenvolver e distribuir plugs customizados caso haja um hardware especial ou único no computador que requer configuração além do que está disponível por padrão no elementary OS; por exemplo, sensores especiais que não estão presentes na maioria dos demais computadores, e por isso não estão disponíveis por padrão. Porém, se essa configuração pode ser relevante para uma quantidade maior de usuários, contribuir diretamente aos <a href="https://github.com/elementary?q=switchboard-plug" target="_blank" rel="noopener">plugs existentes</a> é encorajado.
+        documentation: Documentação
+      oem_info:
+        title: Informações da OEM em "Sobre"
+        paragraph_1: O plug <a href="https://github.com/elementary/switchboard-plug-about/" target="_blank" rel="noopener">Sobre</a> apresenta informações do sistema para o usuário, junto com várias ações globais do sistema, como restaurar configurações, reportar problemas, e obter ajuda. Em adição à informação de software (como a versão do SO), ele também possui um espaço para informações do hardware. Por padrão, ele é preenchido com uma imagem genérica e o hostname do sistema. Porém, OEMs podem exibir informações customizadas de sua marca nessa seção.
+        paragraph_2: Ao fornecer um arquivo <code>oem.conf</code>, OEMs conseguem preencher o nome do fabricante, nome do produto, número do modelo, e uma URL do fabricante, além de uma imagem que substitui o ícone genérico.
+        learn_more: Leia mais
+    third_party_repos:
+      title: Repositórios de Terceiros
+      paragraph_1: É altamente desencorajado que se forneça o elementary OS com repositórios de software além dos padrões do sistema e um único controlado pela OEM. <strong>Repositórios de terceiros efetivamente dão acesso root e a permissão de sobrescrever qualquer pacote do sistema à terceiros potencialmente não-confiáveis.</strong> Mesmo que o terceiro seja confiável, a segurança e privacidade de seu cliente estão agora sob perigo caso os terceiros sejam comprometidos ou atacados.
+      paragraph_2: Além disso, caso um repositório de terceiro deixe de ser mantido ou saia do ar, <strong>isso pode fazer com que updates normais do sistema parem de acontecer.</strong> Isso pode impedir que importantes correções de segurança e estabilidade cheguem a seus clientes.
+  news:
+    title: Notícias e Anúncios
+    paragraph_1: Publicamos atualizações referentes ao desenvolvimento, novas versões, dicas para desenvolvedores, apps em destaque, e mais em nosso Blog.
+    button_text: Visite nosso Blog
+  brand:
+    title: Recursos de Marca
+    paragraph_1: Veja os logos do elementary, diretrizes para utilização da marca, paleta de cores, e logo da comunidade. Também faça o download dos recursos oficiais em alta resolução.
+    button_text: Ver Recursos de Marca
+  get_in_touch:
+    title: Entre em Contato
+    paragraph_1: Fale diretamente com o time enviando um email para <a href=mailto:oem@elementary.io>oem@elementary.io</a>. Se você já é um parceiro ou deseja começar a oferecer o elementary OS, estamos esperando seu contato.
+    button_text: Enviar um Email
