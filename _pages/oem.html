@@ -1,0 +1,131 @@
+---
+layout: docs
+title: oem.title
+permalink: oem
+---
+
+<section>
+  <h1>{% t oem.title %}</h1>
+  <p class="featured-paragraph text-center">
+    {% t oem.featured_paragraph %}
+  </p>
+</section>
+
+<section>
+  <h2>{% t oem.partners_retailers.title %}</h2>
+  <p>
+    {% t oem.partners_retailers.paragraph_1 %}
+  </p>
+</section>
+
+<section class="full-bleed">
+  <div class="flex">
+    <div class="flex-child">
+      <h3>{% t oem.partners_retailers.partner.title %}</h3>
+      <p>{% t oem.partners_retailers.partner.description %}</p>
+      <p>{% t oem.partners_retailers.partner.requirements.title %}</p>
+      <ul class="compact">
+        <li>{% t oem.partners_retailers.partner.requirements.item_1 %}</li>
+        <li>{% t oem.partners_retailers.partner.requirements.item_2 %}</li>
+        <li>{% t oem.partners_retailers.partner.requirements.item_3 %}</li>
+        <li><a href="{{ site.url }}{% t url_fragment %}/brand">{% t oem.partners_retailers.partner.requirements.item_4 %}</a></li>
+      </ul>
+    </div>
+    <div class="flex-child">
+      <h3>{% t oem.partners_retailers.retailer.title %}</h3>
+      <p>{% t oem.partners_retailers.retailer.description %}</p>
+      <p>{% t oem.partners_retailers.retailer.requirements.title %}</p>
+      <ul class="compact">
+        <li>{% t oem.partners_retailers.retailer.requirements.item_1 %}</li>
+        <li>{% t oem.partners_retailers.retailer.requirements.item_2 %}</li>
+        <li><a href="{{ site.url }}{% t url_fragment %}/brand">{% t oem.partners_retailers.retailer.requirements.item_3 %}</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>{% t oem.resources.title %}</h2>
+
+  <h3 class="text-left full-width">{% t oem.resources.installation.title %}</h3>
+  <p>
+    {% t oem.resources.installation.paragraph_1 %}
+  </p>
+  <p>
+    <a href="https://help.ubuntu.com/community/Ubuntu_OEM_Installer_Overview" target="_blank" rel="noopener" class="read-more">
+      {% t oem.resources.installation.ubuntu_installer_instructions %}
+    </a>
+  </p>
+  <p>
+    {% t oem.resources.installation.new_installer_note %}
+  </p>
+  <p>
+    <a href="https://github.com/elementary/installer" target="_blank" rel="noopener" class="read-more">
+      {% t oem.resources.installation.new_installer_link %}
+    </a>
+  </p>
+</section>
+
+<section>
+  <h3 class="text-left full-width">{% t oem.resources.system_settings.title %}</h3>
+  <p>
+    {% t oem.resources.system_settings.paragraph_1 %}
+  </p>
+  <h4 class="text-left full-width">{% t oem.resources.system_settings.plugs.title %}</h4>
+  <p>{% t oem.resources.system_settings.plugs.paragraph_1 %}</p>
+  {% include base/image.html 
+    src="images/oem/switchboard.png"
+    alt="Switchboard" %}
+  <p>{% t oem.resources.system_settings.plugs.paragraph_2 %}</p>
+  <p class="text-center">
+    <a href="https://valadoc.org/switchboard-2.0/Switchboard.Plug.html" target="_blank" rel="noopener" class="read-more">
+      {% t oem.resources.system_settings.plugs.documentation %}
+    </a>
+  </p>
+</section>
+
+<section>
+  <h4 class="text-left full-width">{% t oem.resources.system_settings.oem_info.title %}</h4>
+  <p>{% t oem.resources.system_settings.oem_info.paragraph_1 %}</p>
+  {% include base/image.html 
+    src="images/oem/switchboard-about.png"
+    alt="Switchboard About" %}
+  <p>{% t oem.resources.system_settings.oem_info.paragraph_2 %}</p>
+  <p class="text-center">
+    <a href="https://github.com/elementary/switchboard-plug-about/#oem-configuration" target="_blank" rel="noopener" class="read-more">
+      {% t oem.resources.system_settings.oem_info.learn_more %}
+    </a>
+  </p>
+</section>
+
+<section>
+  <h3 class="text-left full-width">{% t oem.resources.third_party_repos.title %}</h3>
+  <p>{% t oem.resources.third_party_repos.paragraph_1 %}</p>
+  <p>{% t oem.resources.third_party_repos.paragraph_2 %}</p>
+</section>
+
+<section class="full-bleed">
+  <div class="flex">
+    <div class="flex-child small flex center">
+      <h3 class="text-center">{% t oem.news.title %}</h3>
+      <p>{% t oem.news.paragraph_1 %}</p>
+      <a class="btn" href="https://blog.elementary.io/" target="_blank" rel="noopener">
+        {% t oem.news.button_text %}
+      </a>
+    </div>
+    <div class="flex-child small flex center">
+      <h3 class="text-center">{% t oem.brand.title %}</h3>
+      <p>{% t oem.brand.paragraph_1 %}</p>
+      <a class="btn" href="{{ site.url }}{% t url_fragment %}/brand" target="_blank" rel="noopener">
+        {% t oem.brand.button_text %}
+      </a>
+    </div>
+    <div class="flex-child small flex center">
+      <h3 class="text-center">{% t oem.get_in_touch.title %}</h3>
+      <p>{% t oem.get_in_touch.paragraph_1 %}</p>
+      <a class="btn" href="oem@elementary.io">
+        {% t oem.get_in_touch.button_text %}
+      </a>
+    </div>
+  </div>
+</section>

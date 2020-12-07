@@ -119,3 +119,64 @@ brand:
     title: "Assets & More Info"
     button_text: "Download on GitHub"
     paragraph_1: "For further information regarding the use of the elementary name, branding, and trademarks, please email"
+
+oem:
+  title: Information for OEMs
+  featured_paragraph: "Give your customers the best experience with elementary OS."
+  partners_retailers:
+    title: "Partners & Retailers"
+    paragraph_1: We offer two ways to be listed as an OEM of elementary OS in <a href="https://elementary.io/store/">our store</a>, with differing requirements and benefits.
+    partner:
+      title: Partner
+      description: Model-by-model approval with those specific models featured in <a href="https://elementary.io/store/">our store</a>.
+      requirements:
+        title: "Requirements:"
+        item_1: Official involvement from elementary, Inc.
+        item_2: Negotiable per-device royalty
+        item_3: Strict software guidelines
+        item_4: Trademark compliance
+    retailer:
+        title: Retailer
+        description: A link to your website or landing page listed in <a href="https://elementary.io/store/">our store</a>.
+        requirements:
+          title: "Requirements:"
+          item_1: Selling devices with elementary OS
+          item_2: Per-device royalty encouraged
+          item_3: Trademark compliance
+  resources:
+    title: Resources
+    installation:
+      title: Installation
+      paragraph_1: We recommend using the built-in OEM installation procedure provided by the Ubuntu installer. OEMs can install the OS, configure anything necessary, and then prepare the device for shipping to end users.
+      ubuntu_installer_instructions: Ubuntu Instructions
+      new_installer_note: "<strong>Note:</strong> a new installer is being developed that will simplify the installation process."
+      new_installer_link: New Installer
+    system_settings:
+      title: System Settings
+      paragraph_1: System Settings offers several advantages to OEMs shipping elementary OS. From its pluggable architecture to easily-provided branding, System Settings was designed with OEMs in mind.
+      plugs:
+        title: Plugs
+        paragraph_1: System Settings (codenamed <a href="https://github.com/elementary/switchboard" target="_blank" rel="noopener">Switchboard</a>) uses a concept of “Plugs” to provide pluggable settings for various hardware and software concerns. For example, <a href="https://github.com/elementary/switchboard-plug-mouse-touchpad/" target="_blank" rel="noopener">Mouse & Touchpad settings</a> are provided by a plug.
+        paragraph_2: OEMs are able to develop and ship custom plugs if there is special or unique hardware in the machine that would require configuration outside of what is available by default in elementary OS; for example, special sensors or input methods that are not present in most hardware and therefore not implemented by default. Of course if this configuration could be relevant to a broader set of users, contributing upstream to the <a href="https://github.com/elementary?q=switchboard-plug" target="_blank" rel="noopener">existing plugs</a> is heavily encouraged.
+        documentation: Documentation
+      oem_info:
+        title: OEM Info in About
+        paragraph_1: The <a href="https://github.com/elementary/switchboard-plug-about/" target="_blank" rel="noopener">About</a> plug displays system information to the user and provides several system-wide actions, such as restoring settings, reporting issues, and getting help. In addition to software information (like the OS version), it also provides a space for hardware information. By default, this is filled in with a generic image and the system’s hostname. However, OEMs can provide custom branded data for this section.
+        paragraph_2: By providing an <code>oem.conf</code> file, OEMs can fill in the manufacturer name, product name, model number, and manufacturer URL. An image can also be provided which replaces the generic hardware icon.
+        learn_more: Learn More
+    third_party_repos:
+      title: Third-Party Repositories
+      paragraph_1: It is highly discouraged to ship elementary OS with software repositories other than the defaults in elementary OS plus a single repository provided and controlled by the OEM. <strong>Third-party repos effectively give root access and the ability to overwrite any system packages to potentially untrusted third parties.</strong> Even if the party is trustworthy, an OEM’s customer’s security and privacy are now at stake if third parties are compromised, reuse their password on multiple services, etc.
+      paragraph_2: Further, if a third-party repository ever becomes unmaintained or unpublished, <strong>it may prevent normal system upgrades.</strong> This could hold back potentially serious security and stability updates from reaching the OEM’s customers.
+  news:
+    title: News & Announcements
+    paragraph_1: We share frequent updates on development, major announcements, tips for developers, featured apps, and other new content via our Blog.
+    button_text: Visit our Blog
+  brand:
+    title: Brand Resources
+    paragraph_1: View the elementary logos, brand usage guidelines, color palette, and community logo. Plus download the official high-resolution and vector elementary logo assets.
+    button_text: View Brand Resources
+  get_in_touch:
+    title: Get in Touch
+    paragraph_1: Talk directly with the team by emailing us at <a href=mailto:oem@elementary.io>oem@elementary.io</a>. Whether you’re an existing partner or want to explore offering elementary OS, we look forward to chatting.
+    button_text: Send an Email

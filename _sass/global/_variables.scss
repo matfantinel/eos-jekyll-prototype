@@ -1,5 +1,6 @@
 $palette-accent: $palette-blueberry;
 $color-accent: map-get($palette-accent, 500);
+$color-accent-dark: map-get($palette-accent, 300);
 
 // Accent colors for third-party links
 $color-facebook: #19227e;
@@ -11,7 +12,7 @@ $color-twitter: #1da1f2;
   --color-light-text-ignoretheme: #FFFFFF;
   --color-dark-text-ignoretheme: #333333;
 
-
+  --color-accent: #{$color-accent};
   --color-background: #FFFFFF;
   --color-foreground-dark: #333333;
   --color-foreground-light: #FFFFFF;
@@ -20,6 +21,7 @@ $color-twitter: #1da1f2;
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --color-accent: #{$color-accent-dark};
     --color-background: #333333;
     --color-foreground-dark: #FFFFFF;
     --color-foreground-light: #333333;

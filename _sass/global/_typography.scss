@@ -28,7 +28,7 @@ b {
 }
 
 a {
-  color: $color-accent;
+  color: var(--color-accent);
   opacity: 1;
   text-decoration-skip: ink;
   transition: opacity 250ms ease;
@@ -48,6 +48,13 @@ span.hex {
   &:before {
     content: '#';
   }
+}
+
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
 }
 
 // article {
@@ -121,7 +128,7 @@ span.hex {
 //   padding-left: 1em;
 //   margin-right: auto;
 //   font-style: italic;
-//   border-left: 0.125em solid $color-accent;
+//   border-left: 0.125em solid var(--color-accent);
 
 //   em,
 //   i {
