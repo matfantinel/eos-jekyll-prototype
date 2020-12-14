@@ -31,15 +31,11 @@
           &.popover-trigger {
             display: flex;
             align-items: center;
-            svg {
+            .far {
               margin-right: .2rem;
             }
           }
           
-        }
-
-        svg {
-          height: 1em;
         }
       }
     }

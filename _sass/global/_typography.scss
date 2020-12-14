@@ -37,6 +37,16 @@ a {
   &:focus {
     opacity: 0.8;
   }
+
+  &.block-link {
+    color: inherit;
+   
+    &:hover,
+    &:focus {
+      opacity: 1;
+      color: var(--color-accent);
+    }
+  }
 }
 
 code {

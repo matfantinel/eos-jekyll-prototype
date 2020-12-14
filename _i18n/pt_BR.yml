@@ -180,3 +180,15 @@ oem:
     title: Entre em Contato
     paragraph_1: Fale diretamente com o time enviando um email para <a href=mailto:oem@elementary.io>oem@elementary.io</a>. Se você já é um parceiro ou deseja começar a oferecer o elementary OS, estamos esperando seu contato.
     button_text: Enviar um Email
+
+support:
+  title: Obtenha Suporte
+  featured_paragraph: Possuímos <a href="https://elementaryos.stackexchange.com" target="_blank" rel="noopener">um site no Stack Exchange gerenciado pela nossa comunidade</a> para fornecer suporte. Pesquise por perguntas comuns, faça suas próprias perguntas, ou ajude respondendo outras. Escolhe um aplicativo abaixo para ver perguntas específicas para cada um deles.
+  guides:
+    title: Tutoriais
+    installation:
+      title: Instalação
+      description: Obtenha ajuda para instalar o elementary OS com nosso guia passo-a-passo.
+    basics:
+      title: Aprendendo o Básico
+      description: Aprenda a utilizar a área de trabalho, multitarefas, atalhos de teclados e mais.

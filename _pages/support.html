@@ -1,0 +1,77 @@
+---
+layout: docs
+title: support.title
+permalink: support
+---
+
+<section>
+  <h1>{% t support.title %}</h1>
+  <p class="featured-paragraph text-center">
+    {% t support.featured_paragraph %}
+  </p>
+</section>
+
+<section class="apps full-bleed">
+  <a class="app" href="https://elementaryos.stackexchange.com/questions/tagged/appcenter" target="_blank" rel="noopener">
+    <img width="64" height="64" src="/images/icons/apps/64/system-software-install.svg" alt="AppCenter">
+    <span>AppCenter</span>
+  </a>
+  <a class="app" href="https://elementaryos.stackexchange.com/questions/tagged/calendar" target="_blank" rel="noopener">
+    <img width="64" height="64" src="/images/icons/apps/64/office-calendar.svg" alt="Calendar">
+    <span>Calendar</span>
+  </a>
+  <a class="app" href="https://elementaryos.stackexchange.com/questions/tagged/camera" target="_blank" rel="noopener">
+    <img width="64" height="64" src="/images/icons/apps/64/accessories-camera.svg" alt="Camera">
+    <span>Camera</span>
+  </a>
+  <a class="app" href="https://elementaryos.stackexchange.com/questions/tagged/pantheon-files" target="_blank" rel="noopener">
+    <img width="64" height="64" src="/images/icons/apps/64/system-file-manager.svg" alt="Files">
+    <span>Files</span>
+  </a>
+  <a class="app" href="https://elementaryos.stackexchange.com/questions/tagged/pantheon-mail" target="_blank" rel="noopener">
+    <img width="64" height="64" src="/images/icons/apps/64/internet-mail.svg" alt="Mail">
+    <span>Mail</span>
+  </a>
+  <a class="app" href="https://elementaryos.stackexchange.com/questions/tagged/epiphany" target="_blank" rel="noopener">
+    <img width="64" height="64" src="/images/icons/apps/64/web-browser.svg" alt="Epiphany">
+    <span>Epiphany</span>
+  </a>
+  <a class="app" href="https://elementaryos.stackexchange.com/questions/tagged/music" target="_blank" rel="noopener">
+    <img width="64" height="64" src="/images/icons/apps/64/multimedia-audio-player.svg" alt="Music">
+    <span>Music</span>
+  </a>
+  <a class="app" href="https://elementaryos.stackexchange.com/questions/tagged/photos" target="_blank" rel="noopener">
+    <img width="64" height="64" src="/images/icons/apps/64/multimedia-photo-manager.svg" alt="Photos">
+    <span>Photos</span>
+  </a>
+  <a class="app" href="https://elementaryos.stackexchange.com/questions/tagged/code" target="_blank" rel="noopener">
+    <img width="64" height="64" src="/images/thirdparty-icons/apps/64/io.elementary.code.svg" alt="Code">
+    <span>Code</span>
+  </a>
+  <a class="app" href="https://elementaryos.stackexchange.com/questions/tagged/settings" target="_blank" rel="noopener">
+    <img width="64" height="64" src="/images/icons/apps/64/preferences-desktop.svg" alt="System Settings">
+    <span>System Settings</span>
+  </a>
+  <a class="app" href="https://elementaryos.stackexchange.com/questions/tagged/videos" target="_blank" rel="noopener">
+    <img width="64" height="64" src="/images/icons/apps/64/multimedia-video-player.svg" alt="Videos">
+    <span>Videos</span>
+  </a>
+</section>
+
+<section>
+  <h2>{% t support.guides.title %}</h2>
+  <div class="flex">
+    <a class="flex-child small block-link" href="{{ site.url }}{% t url_fragment %}/docs/installation">
+      <h2 class="text-center"><i class="fa fa-download"></i></h2>
+      <h3 class="text-center">        
+        {% t support.guides.installation.title %}
+      </h3>
+      <p>{% t support.guides.installation.description %}</p>
+    </a>
+    <a class="flex-child small block-link" href="{{ site.url }}{% t url_fragment %}/docs/learning-the-basics">
+      <h2 class="text-center"><i class="fa fa-book"></i></h2>
+      <h3 class="text-center">{% t support.guides.basics.title %}</h3>
+      <p>{% t support.guides.basics.description %}</p>
+    </a>
+  </div>
+</section>
