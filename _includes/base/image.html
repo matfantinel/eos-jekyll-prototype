@@ -1,10 +1,19 @@
 {% assign src = include.src %}
 {% assign alt = include.alt %}
 {% assign darkModeSrc = include.darkModeSrc %}
+{% assign isAbsolutePath = include.isAbsolutePath %}
+
+{% if isAbsolutePath %}
+{% assign imageSrc = src %}
+{% assign darkModeImageSrc = darkModeSrc %}
+{% else %}
+{% assign imageSrc = site.url | append: '/' | append: src %}
+{% assign darkModeImageSrc = site.url | append: '/' | append: darkModeSrc %}
+{% endif %}
 
 <picture>
   {% if darkModeSrc %}
-  <source srcset="{{ site.url }}/{{ darkModeSrc }}" media="(prefers-color-scheme:dark)">
+  <source srcset="{{ darkModeImageSrc }}" media="(prefers-color-scheme:dark)">
   {% endif %}
-  <img src="{{ site.url }}/{{ src }}"  alt="{{ alt }}" loading="lazy">
+  <img src="{{ imageSrc }}"  alt="{{ alt }}" loading="lazy">
 </picture>
