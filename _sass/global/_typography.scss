@@ -67,6 +67,12 @@ span.hex {
   text-align: left;
 }
 
+::selection {
+  background-color: rgba(map-get($palette-accent, 100), 0.3);
+  color: map-get($palette-accent, 900);
+  text-shadow: none;
+}
+
 // article {
 //   line-height: 1.75em;
 
