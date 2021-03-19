@@ -192,3 +192,14 @@ support:
     basics:
       title: Aprendendo o Básico
       description: Aprenda a utilizar a área de trabalho, multitarefas, atalhos de teclados e mais.
+
+press:
+  title: Recursos de Imprensa
+  featured_paragraph: Adoramos trabalhar com a imprensa—tanto no mundo Linux quanto nas maiores publicações de tecnologia e cultura—para compartilhar nossa história e o que estamos trabalhando.
+  join_list:
+    title: Junte-se à nossa lista de imprensa
+    description: Seja o primeiro a saber sobre novos lançamentos e desenvolvimentos significativos. Enviamos acesso antecipado a press releases e press kits, incluindo capturas de tela de alta resolução. Esta é uma lista de <strong>volume muito baixo</strong>; enviamos as maiores notícias em torno de uma vez por ano.
+  kit: 
+    description: Hera é uma grande atualização sobre uma base sólida. Apresentando um login e tela de bloqueio totalmente redesenhados, uma nova experiência inicial, novas maneiras de carregar e instalar aplicativos de terceiros, grandes atualizações de configurações do sistema, aplicativos principais aprimorados e refinamentos da área de trabalho.
+    read_announcement: Leia o Anúncio
+    download: Baixar Kit de Imprensa

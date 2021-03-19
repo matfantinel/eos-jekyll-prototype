@@ -14,6 +14,7 @@ $color-twitter: #1da1f2;
 
   --color-accent: #{$color-accent};
   --color-background: #FFFFFF;
+  --color-background-darker: #FAFAFA;
   --color-foreground-dark: #333333;
   --color-foreground-light: #FFFFFF;
   --color-border: rgba(0, 0, 0, 0.2);
@@ -23,6 +24,7 @@ $color-twitter: #1da1f2;
   :root {
     --color-accent: #{$color-accent-dark};
     --color-background: #333333;
+    --color-background-darker: #555555;
     --color-foreground-dark: #FFFFFF;
     --color-foreground-light: #333333;
     --color-border: rgba(255, 255, 255, 0.2);

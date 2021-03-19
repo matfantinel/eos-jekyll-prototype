@@ -1,9 +1,12 @@
 .docs-container {
-  display: grid;
-  grid-template-columns:
+  --docs-grid-template-columns:
     1fr
-    #{'min(65ch, 100%)'} // it's wrapped like this because Jekyll's Sass compiler is dumb and doesnt accept ch and % together
+    #{'min(65ch, 100%)'}
     1fr;
+
+
+  display: grid;
+  grid-template-columns: var(--docs-grid-template-columns);
 
   > * {
     grid-column: 2;
@@ -20,6 +23,21 @@
       max-width: 1200px;
       margin-left: auto;
       margin-right: auto;
+    }
+
+    &.feature-banner {
+      background-color: var(--color-background-darker);
+      grid-column: 1 / 4;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 2rem 1em;
+
+      display: grid;
+      grid-template-columns: var(--docs-grid-template-columns);
+
+      > * {
+        grid-column: 2;
+      }
     }
   }
 

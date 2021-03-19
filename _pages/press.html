@@ -1,0 +1,109 @@
+---
+layout: docs
+title: press.title
+permalink: press
+---
+
+<section>
+  <h1>{% t press.title %}</h1>
+  <p class="featured-paragraph text-center">{% t press.featured_paragraph %}</p>
+</section>
+
+<section>
+  <h2>{% t press.join_list.title %}</h2>
+  <p class="text-center">{% t press.join_list.description %}</p>
+
+  <!-- Begin MailChimp Signup Form -->
+  <div id="mc_embed_signup" style="width: 100%;">
+    <form
+      action="https://elementary.us14.list-manage.com/subscribe/post?u=6815d99e5893b4e213cdb00d2&amp;id=142e260a91"
+      method="post"
+      id="mc-embedded-subscribe-form"
+      name="mc-embedded-subscribe-form"
+      class="validate"
+      target="_blank"
+      novalidate
+    >
+      <div id="mc_embed_signup_scroll">
+        <div class="mc-field-group">
+          <label for="mce-EMAIL">Email <span class="asterisk">*</span> </label>
+          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+        </div>
+        <div class="mc-field-group">
+          <label for="mce-FNAME">First Name <span class="asterisk">*</span> </label>
+          <input type="text" value="" name="FNAME" class="required" id="mce-FNAME" />
+        </div>
+        <div class="mc-field-group">
+          <label for="mce-LNAME">Last Name </label>
+          <input type="text" value="" name="LNAME" id="mce-LNAME" />
+        </div>
+        <div class="mc-field-group">
+          <label for="mce-PUBNAME">Publication <span class="asterisk">*</span> </label>
+          <input type="text" value="" name="PUBNAME" class="required" id="mce-PUBNAME" />
+        </div>
+        <div id="mce-responses" class="clear">
+          <div class="response" id="mce-error-response" style="display: none"></div>
+          <div class="response" id="mce-success-response" style="display: none"></div>
+        </div>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups -->
+        <div style="position: absolute; left: -5000px" aria-hidden="true">
+          <input type="text" name="b_6815d99e5893b4e213cdb00d2_142e260a91" tabindex="-1" value="" />
+        </div>
+        <div class="flex center">
+          <input
+            type="submit"
+            value="Subscribe"
+            name="subscribe"
+            id="mc-embedded-subscribe"
+            class="button suggested-action"
+          />
+        </div>
+      </div>
+    </form>
+  </div>
+  <!-- End MailChimp Signup Form -->
+</section>
+
+<section class="feature-banner">
+  <div>
+    <h2>elementary OS 5.1 Hera</h2>
+    <p class="text-center">{% t press.kit.description%}</p>
+    <div class="flex center">
+      <a
+        class="btn"
+        href="https://blog.elementary.io/introducing-elementary-os-5-1-hera/"
+        target="_blank"
+        rel="noopener"
+      >
+        {% t press.kit.read_announcement %}
+      </a>
+      <a class="btn" href="https://github.com/elementary/press-kit/archive/5.1-hera.zip" target="_blank" rel="noopener">
+        {% t press.kit.download %}
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="full-bleed">
+  <div class="flex">
+    <div class="flex-child small flex center">
+      <h3 class="text-center">{% t oem.news.title %}</h3>
+      <p>{% t oem.news.paragraph_1 %}</p>
+      <a class="btn" href="https://blog.elementary.io/" target="_blank" rel="noopener">
+        {% t oem.news.button_text %}
+      </a>
+    </div>
+    <div class="flex-child small flex center">
+      <h3 class="text-center">{% t oem.brand.title %}</h3>
+      <p>{% t oem.brand.paragraph_1 %}</p>
+      <a class="btn" href="{{ site.url }}{% t url_fragment %}/brand" target="_blank" rel="noopener">
+        {% t oem.brand.button_text %}
+      </a>
+    </div>
+    <div class="flex-child small flex center">
+      <h3 class="text-center">{% t oem.get_in_touch.title %}</h3>
+      <p>{% t oem.get_in_touch.paragraph_1 %}</p>
+      <a class="btn" href="oem@elementary.io"> {% t oem.get_in_touch.button_text %} </a>
+    </div>
+  </div>
+</section>
