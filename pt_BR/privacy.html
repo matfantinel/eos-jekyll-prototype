@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Privacidade ⋅ elementary</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=5.0'>
+    <meta name="theme-color" content="#1c1e26">
+    <meta name="color-scheme" content="light dark">
+
+    
+    <meta name="description" content="The fast, open, and privacy-respecting replacement for Windows and macOS">
+    <meta property="og:description" content="The fast, open, and privacy-respecting replacement for Windows and macOS" />
+    <meta name="twitter:description" content="The fast, open, and privacy-respecting replacement for Windows and macOS" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@elementary" />
+
+    
+    <meta property="og:title" content="privacy.title" />
+    <meta name="twitter:title" content="privacy.title" />
+    
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-vlOMx0hKjUCl4WzuhIhSNZSm2yQCaf0mOU1hEDK/iztH3gU4v5NMmJln9273A6Jz" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/eos-jekyll-prototype/style.css" />
+  </head>
+
+  <body>
+    <header class="elementary--header">
+  <nav>
+    <ul>
+      <li>
+        <a href="/eos-jekyll-prototype/pt_BR/" class="logomark"> <svg xmlns="http://www.w3.org/2000/svg" height="22" width="22"><path d="M11 0C4.926 0 0 4.926 0 11s4.926 11 11 11 11-4.926 11-11S17.074 0 11 0zm-.02 1.049h.002a.07.07 0 0 0 .018 0c4.548 0 8.384 3.052 9.57 7.217a17.315 17.315 0 0 1-4.213 5.496c-.847.733-1.773 1.383-2.79 1.842-1.018.458-2.136.719-3.247.656a5.6 5.6 0 0 1-2.271-.633 18.276 18.276 0 0 0 5.078-4.12c.956-1.116 1.791-2.39 2.115-3.833.165-.722.19-1.48.04-2.207a4.079 4.079 0 0 0-.999-1.965 4.013 4.013 0 0 0-1.855-1.098 4.85 4.85 0 0 0-2.153-.078c-1.423.261-2.693 1.086-3.705 2.108-1.787 1.8-2.89 4.34-2.687 6.875.102 1.267.524 2.511 1.252 3.554.143.205.302.398.467.584a16.228 16.228 0 0 1-3.086.739A9.946 9.946 0 0 1 10.98 1.049zm.07 2.02c.004-.001.016.002.012.001.692 0 1.387.211 1.936.627a3.2 3.2 0 0 1 1.068 1.49 4.12 4.12 0 0 1 .192 1.848c-.143 1.243-.77 2.388-1.533 3.393-1.354 1.778-3.156 3.203-5.159 4.2-.19.095-.386.187-.582.274a5.114 5.114 0 0 1-1.05-1.295c-.59-1.044-.784-2.284-.67-3.482.116-1.199.526-2.356 1.082-3.43.643-1.244 1.516-2.418 2.732-3.09a4.14 4.14 0 0 1 1.973-.537zm9.83 6.81c.042.367.071.739.071 1.117 0 5.497-4.452 9.953-9.95 9.953a9.917 9.917 0 0 1-7.59-3.53 18.138 18.138 0 0 0 3.17-1.06c.461.346.967.634 1.507.84 1.59.61 3.392.52 4.996-.035 1.603-.555 3.021-1.549 4.256-2.705a18.264 18.264 0 0 0 3.54-4.58z"/></svg> </a>
+      </li>
+      <li><a href="/eos-jekyll-prototype/pt_BR/support">Suporte</a></li>
+      <li><a href="https://developer.elementary.io" target="_self">Desenvolvedor</a></li>
+      <li><a href="/eos-jekyll-prototype/pt_BR/get-involved">Se Envolva</a></li>
+      <li><a href="/eos-jekyll-prototype/pt_BR/store/">Loja</a></li>
+      <li><a href="https://blog.elementary.io" target="_self">Blog</a></li>
+    </ul>
+    <ul>
+      <li>
+        <a
+          href="https://www.facebook.com/elementaryos"
+          target="_blank"
+          rel="noopener"
+          data-l10n-off=""
+          title="Facebook"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://mastodon.social/@elementary" target="_blank" rel="noopener" data-l10n-off="" title="Mastodon"
+          ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg></a
+        >
+      </li>
+      <li>
+        <a href="https://www.reddit.com/r/elementaryos" target="_blank" rel="noopener" data-l10n-off="" title="Reddit"
+          ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z"/></svg></a
+        >
+      </li>
+      <li>
+        <a
+          href="https://elementaryos.stackexchange.com"
+          target="_blank"
+          rel="noopener"
+          data-l10n-off=""
+          title="Stack Exchange"
+          ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M17.7 332.3h412.7v22c0 37.7-29.3 68-65.3 68h-19L259.3 512v-89.7H83c-36 0-65.3-30.3-65.3-68v-22zm0-23.6h412.7v-85H17.7v85zm0-109.4h412.7v-85H17.7v85zM365 0H83C47 0 17.7 30.3 17.7 67.7V90h412.7V67.7C430.3 30.3 401 0 365 0z"/></svg></a
+        >
+      </li>
+      <li>
+        <a href="https://twitter.com/elementary" target="_blank" rel="noopener" data-l10n-off="" title="Twitter"
+          ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a
+        >
+      </li>
+      <li>
+        <a href="https://community-slack.elementary.io/" target="_blank" rel="noopener" data-l10n-off="" title="Slack"
+          ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg></a
+        >
+      </li>
+    </ul>
+  </nav>
+</header>
+
+    <div id="content-container"><div class="docs-container">
+  <section>
+  <h1>Privacidade</h1>
+  <p class="featured-paragraph">
+    Seus dados sempre pertencem a você e somente você. Não realizamos acordos de propaganda e não coletamos informações pessoais sensíveis. Somos financiados diretamente pelos nossos usuários pagando o que querem pelo elementary OS e aplicativos no AppCenter. E é assim que deve ser.    
+  </p>
+</section>
+
+<section>
+  <h2>elementary OS</h2>
+  <p>Não coletamos dado algum no elementary OS. Seus arquivos, configurações, e outros dados pessoais permanecem apenas em seu computador a não ser que você explicitamente os compartilhe com um aplicativo ou serviço de terceiros.</p>
+
+  <h3>Contas Online</h3>
+  <p>O elementary OS opcionalmente se integra com provedores de contas online como Google, Last.fm e Fastmail através das configurações de sistema. Os dados desses provedores podem ser buscados e armazenados localmente em seu computador para serem usados em aplicativos como Email e Agenda. Esses dados não são enviados para a elementary nem para terceiros.</p>
+
+  <h4>Quais Dados São Coletados</h4>
+  <p>Após adicionar uma conta online, o elementary OS pode coletar e armazenar localmente em seu computador seu nome, endereço de email, imagem de perfil, mensagens de email, eventos da agenda, contatos, fotos e arquivos de suas contas conectadas.</p>
+
+  <h4>Como os Dados São Usados</h4>
+  <p>Seus dados são armazenados localmente em seu computador e nunca enviados para servidores da elementary ou de quaisquer terceiros. Eles são usados apenas para utilização de aplicativos como Email, Agenda, Arquivos e Fotos.</p>
+
+  <h4>Compartilhamento dos Dados</h4>
+  <p>O elementary OS não compartilha nenhum dos dados coletados de suas contas online. Os dados nunca são enviados para nossos servidores, nem para os de terceiros.</p>
+</section>
+
+<section>
+  <h2>elementary.io</h2>
+
+  <h3>Plausible Analytics</h3>
+  <p>Nós usamos a ferramenta de análise de tráfego Plausible Analytics através de nosso domínio <code>stats.elementary.io</code> para contar o número de visitas e downloads em nosso website. Você pode enxergar os mesmos dados que nós podemos através do <a href="https://plausible.io/elementary.io" target="_blank" rel="noopener">nosso quadro público</a>. Nenhum cookie é usado e nenhum dado pessoal—nem mesmo seu endereço de IP ou navegador—é armazenado. Para mais informações, veja a <a href="https://plausible.io/data-policy" target="_blank" rel="noopener" class="read-more">Política de Privacidade da Plausible</a></p>
+
+  <h3>Cookies</h3>
+  <p><strong>Você pode escolher desabilitar todos ou alguns cookies nas configurações de seu navegador.</strong></p>
+  <p>Este website usa cookies para melhorias incrementais, podendo ser utilizado sem eles, porém com funcionalidades reduzidas. Por exemplo, o website não lembrará se você já tiver pago pelo elementary OS anteriormente; por padrão será solicitado que você pague novamente.</p>
+
+  <h5>Cloudflare</h5>
+  <p>Armazena cookies para analisar elementos comportamentais e analisar ameaças potenciais. Para mais informações, veja a <a href="https://www.cloudflare.com/security-policy" target="_blank" rel="noopener" class="read-more">Política de Privacidade & Segurança da Cloudflare</a></p>
+
+  <h5>Stripe</h5>
+  <p>Utiliza cookies para lembrar de seu último pedido e de seu país de origem, para saber quais tipos de cartão de crédito mostrar para pagamentos. Para mais informações, veja a <a href="https://stripe.com/privacy" target="_blank" rel="noopener" class="read-more">Política de Privacidade da Stripe</a></p>
+
+  <h5>Gerenciar Cookies</h5>
+  <p>Como você já visitou nosso website, você pode desejar gerenciar cookies já armazenados em seu navegador. Instruções para tal podem ser vistas abaixo.</p>
+  <div class="app-links compact">
+    <a class="app" href="https://support.brave.com/hc/en-us/articles/360050634931-How-Do-I-Manage-Cookies-In-Brave-" target="_blank" rel="noopener">
+      
+
+
+
+
+
+
+<picture>
+  
+  <img src="/eos-jekyll-prototype//images/privacy/Brave.svg"  alt="Brave logo" loading="lazy">
+</picture>
+      <span>Brave</span>
+    </a>
+    <a class="app" href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener">
+      
+
+
+
+
+
+
+<picture>
+  
+  <img src="/eos-jekyll-prototype//images/privacy/Chrome.svg"  alt="Chrome logo" loading="lazy">
+</picture>
+      <span>Chrome</span>
+    </a>
+    <a class="app" href="https://support.microsoft.com/en-us/topic/delete-and-manage-cookies-168dab11-0753-043d-7c16-ede5947fc64d" target="_blank" rel="noopener">
+      
+
+
+
+
+
+
+<picture>
+  
+  <img src="/eos-jekyll-prototype//images/privacy/Edge.svg"  alt="Edge logo" loading="lazy">
+</picture>
+      <span>Edge</span>
+    </a>    
+    <a class="app" href="https://help.gnome.org/users/epiphany/stable/data-cookies.html" target="_blank" rel="noopener">
+      
+
+
+
+
+
+
+<picture>
+  
+  <img src="https://raw.githubusercontent.com/elementary/icons/master/apps/64/internet-web-browser.svg"  alt="Epiphany logo" loading="lazy">
+</picture>
+      <span>Epiphany</span>
+    </a>
+    <a class="app" href="https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored" target="_blank" rel="noopener">
+      
+
+
+
+
+
+
+<picture>
+  
+  <img src="/eos-jekyll-prototype//images/privacy/Firefox.svg"  alt="Firefox logo" loading="lazy">
+</picture>
+      <span>Firefox</span>
+    </a>     
+    <a class="app" href="https://www.opera.com/blogs/news/2015/08/how-to-manage-cookies-in-opera/" target="_blank" rel="noopener">
+      
+
+
+
+
+
+
+<picture>
+  
+  <img src="/eos-jekyll-prototype//images/privacy/Opera.svg"  alt="Opera logo" loading="lazy">
+</picture>
+      <span>Opera</span> 
+    </a>
+    <a class="app" href="https://support.apple.com/kb/PH17191" target="_blank" rel="noopener">
+      
+
+
+
+
+
+
+<picture>
+  
+  <img src="/eos-jekyll-prototype//images/privacy/Safari.svg"  alt="Safari logo" loading="lazy">
+</picture>
+      <span>Safari</span>
+    </a>   
+  </div>
+</section>
+
+<section>
+  <h2>Transparência</h2>
+  <p>Nós não implementamos nenhuma vulnerabilidade planejada em nosso software e não recebemos nenhum pedido para fazê-lo. Também nunca recebemos uma National Security Letter, FISA order, ou quaisquer outras solicitações confidenciais de dados de usuários.</p>
+</section>
+</div></div>
+
+    <footer class="elementary--footer">
+  <nav>
+    <ul>
+      <li>
+        <p>Copyright &copy; 2021 elementary, Inc.</p>
+      </li>
+      <li><div class="popover">
+  <a class="popover-trigger" href="#"><i class="far fa-language"></i> Idioma</a>
+  <div class="popover-content">
+    <strong>Alterar o idioma do site</strong>
+    <ul>
+       
+      <li>
+        <a
+          href="
+        
+        /eos-jekyll-prototype/privacy
+        
+        "
+          rel="alternate"
+          hreflang="en"
+          data-l10n-off
+          onclick="setLang('en')"
+        >
+          English
+        </a>
+      </li>
+       
+      <hr />
+        
+      <li>
+        <a
+          href="
+        
+        /eos-jekyll-prototype/pt_BR/privacy
+        
+        "
+          rel="alternate"
+          hreflang="pt-BR"
+          data-l10n-off
+          onclick="setLang('pt_BR')"
+        >
+          Português (Brasil)
+        </a>
+      </li>
+        
+    </ul>
+  </div>
+</div>
+
+<script>
+  document.querySelector('.popover-trigger').addEventListener('click', (event) => {
+    event.preventDefault();
+    if (event.target.classList.contains('popover-trigger')) {
+      openPopover(event.target);
+    } else {
+      // If an inner element was clicked (like the icon), we need to send the parent
+      openPopover(event.target.parentElement);
+    }
+  });
+
+  function openPopover(trigger) {
+    const popover = trigger.parentElement;
+    const popoverContent = popover.querySelector('.popover-content');
+    const body = document.querySelector('body');
+
+    // First make the popover show up by toggling its class
+    popover.classList.add('active');
+
+    // Set body overflow to hidden just to make sure nothing interferes with the popover
+    body.style.overflow = 'hidden';
+
+    // setTimeout is used here so that we wait for the current thread to finish running
+    // before we add the listeners. Otherwise, they'd fire immediatelly
+    setTimeout(() => {
+      body.addEventListener('click', closePopover);
+      body.addEventListener('scroll', closePopover);
+      body.addEventListener('touchmove', closePopover);
+      body.addEventListener('mousewheel', closePopover);
+      body.addEventListener('wheel', closePopover);
+    }, 0);
+
+    // When user scrolls inside the popover, make sure it won't scroll the body too
+    popoverContent.addEventListener('scroll', (e) => e.stopPropagation());
+    popoverContent.addEventListener('touchmove', (e) => e.stopPropagation());
+    popoverContent.addEventListener('mousewheel', (e) => e.stopPropagation());
+    popoverContent.addEventListener('wheel', (e) => e.stopPropagation());
+  }
+
+  var closePopover = function (event) {
+    if (!event.target.matches('.popover-content *')) {
+      // Close the popover
+      document.querySelector('.popover').classList.remove('active');
+
+      const body = document.querySelector('body');
+      // Reset the body's style and listeners, so that things don't fire again
+      body.style.overflow = 'visible';
+      body.removeEventListener('click', closePopover);
+      body.removeEventListener('scroll', closePopover);
+      body.removeEventListener('touchmove', closePopover);
+      body.removeEventListener('mousewheel', closePopover);
+      body.removeEventListener('wheel', closePopover);
+    }
+  };
+
+  function setLang(lang) {
+    localStorage.setItem('lang', lang);
+  }
+</script>
+</li>
+    </ul>
+    <ul>
+      <li><a href="/eos-jekyll-prototype/pt_BR/press">Imprensa</a></li>
+      <li><a href="/eos-jekyll-prototype/pt_BR/brand">Marca</a></li>
+      <li><a href="/eos-jekyll-prototype/pt_BR/oem">OEMs</a></li>
+      <li><a href="/eos-jekyll-prototype/pt_BR/privacy">Privacidade</a></li>
+      <li><a href="/eos-jekyll-prototype/pt_BR/team">Equipe</a></li>
+      <li><a href="/eos-jekyll-prototype/pt_BR/open-source">Código Aberto</a></li>
+    </ul>
+  </nav>
+</footer>
+ 
+  </body>
+</html>
+
+<script>
+  // If the language has been set previously, don't run this
+  if (!localStorage.getItem('lang')) {
+    var availableLanguages = ['en','pt_BR',];
+
+    // Function to check if any language is already set in the URL
+    var urlChecker = value => window.location.pathname.includes(`/${value}`);
+
+    // If the URL does not specify a language...
+    if (availableLanguages.filter(urlChecker).length === 0) {
+      var lang = navigator.language || navigator.userLanguage;
+      if (lang) {
+        lang = lang.replace('-', '_');
+      }
+
+      // ...and the browser language is supported...
+      if (availableLanguages.indexOf(lang)) {
+        // ... then let's save that language to localStorage to remember, and navigate to it
+        localStorage.setItem('lang', lang);
+        
+        // en is the default so we don't want to add it to the URL
+        if (lang != 'en') {
+          window.location = '/eos-jekyll-prototype/' + lang + '/privacy';
+        }
+      }
+    }
+  }
+</script>
