@@ -1,0 +1,99 @@
+---
+layout: docs
+title: privacy.title
+permalink: privacy
+---
+
+<section>
+  <h1>{% t privacy.title %}</h1>
+  <p class="featured-paragraph">
+    {% t privacy.featured_paragraph %}    
+  </p>
+</section>
+
+<section>
+  <h2>{% t privacy.elementary_os.title %}</h2>
+  <p>{% t privacy.elementary_os.description %}</p>
+
+  <h3>{% t privacy.elementary_os.online_accounts.title %}</h3>
+  <p>{% t privacy.elementary_os.online_accounts.description %}</p>
+
+  <h4>{% t privacy.elementary_os.online_accounts.what.title %}</h4>
+  <p>{% t privacy.elementary_os.online_accounts.what.description %}</p>
+
+  <h4>{% t privacy.elementary_os.online_accounts.how.title %}</h4>
+  <p>{% t privacy.elementary_os.online_accounts.how.description %}</p>
+
+  <h4>{% t privacy.elementary_os.online_accounts.sharing.title %}</h4>
+  <p>{% t privacy.elementary_os.online_accounts.sharing.description %}</p>
+</section>
+
+<section>
+  <h2>{% t privacy.elementary_io.title %}</h2>
+
+  <h3>{% t privacy.elementary_io.plausible.title %}</h3>
+  <p>{% t privacy.elementary_io.plausible.description %}</p>
+
+  <h3>{% t privacy.elementary_io.cookies.title %}</h3>
+  <p><strong>{% t privacy.elementary_io.cookies.paragraph_1 %}</strong></p>
+  <p>{% t privacy.elementary_io.cookies.paragraph_2 %}</p>
+
+  <h5>{% t privacy.elementary_io.cookies.cloudflare.title %}</h5>
+  <p>{% t privacy.elementary_io.cookies.cloudflare.description %}</p>
+
+  <h5>{% t privacy.elementary_io.cookies.stripe.title %}</h5>
+  <p>{% t privacy.elementary_io.cookies.stripe.description %}</p>
+
+  <h5>{% t privacy.elementary_io.cookies.manage.title %}</h5>
+  <p>{% t privacy.elementary_io.cookies.manage.description %}</p>
+  <div class="app-links compact">
+    <a class="app" href="https://support.brave.com/hc/en-us/articles/360050634931-How-Do-I-Manage-Cookies-In-Brave-" target="_blank" rel="noopener">
+      {% include base/image.html 
+        src="/images/privacy/Brave.svg"
+        alt="Brave logo" %}
+      <span>Brave</span>
+    </a>
+    <a class="app" href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener">
+      {% include base/image.html 
+        src="/images/privacy/Chrome.svg"
+        alt="Chrome logo" %}
+      <span>Chrome</span>
+    </a>
+    <a class="app" href="https://support.microsoft.com/en-us/topic/delete-and-manage-cookies-168dab11-0753-043d-7c16-ede5947fc64d" target="_blank" rel="noopener">
+      {% include base/image.html 
+        src="/images/privacy/Edge.svg"
+        alt="Edge logo" %}
+      <span>Edge</span>
+    </a>    
+    <a class="app" href="https://help.gnome.org/users/epiphany/stable/data-cookies.html" target="_blank" rel="noopener">
+      {% include base/image.html 
+        isAbsolutePath="true"
+        src="https://raw.githubusercontent.com/elementary/icons/master/apps/64/internet-web-browser.svg"
+        alt="Epiphany logo" %}
+      <span>Epiphany</span>
+    </a>
+    <a class="app" href="https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored" target="_blank" rel="noopener">
+      {% include base/image.html 
+        src="/images/privacy/Firefox.svg"
+        alt="Firefox logo" %}
+      <span>Firefox</span>
+    </a>     
+    <a class="app" href="https://www.opera.com/blogs/news/2015/08/how-to-manage-cookies-in-opera/" target="_blank" rel="noopener">
+      {% include base/image.html 
+        src="/images/privacy/Opera.svg"
+        alt="Opera logo" %}
+      <span>Opera</span> 
+    </a>
+    <a class="app" href="https://support.apple.com/kb/PH17191" target="_blank" rel="noopener">
+      {% include base/image.html 
+        src="/images/privacy/Safari.svg"
+        alt="Safari logo" %}
+      <span>Safari</span>
+    </a>   
+  </div>
+</section>
+
+<section>
+  <h2>{% t privacy.transparency.title %}</h2>
+  <p>{% t privacy.transparency.description %}</p>
+</section>

@@ -4,6 +4,7 @@ global:
   site_title: elementary
   site_description: The fast, open, and privacy-respecting replacement for Windows and macOS
   back_to_home_page: Go to Home Page
+  elementary_os: elementary OS
 
 header:
   support: Support
@@ -203,3 +204,43 @@ press:
     description: Hera is a major update on a solid foundation. Featuring a completely redesigned login and lockscreen greeter, a new onboarding experience, new ways to sideload and install apps, major System Settings updates, improved core apps, and desktop refinements.
     read_announcement: Read Announcement
     download: Download Press Kit
+
+privacy:
+  title: Privacy
+  featured_paragraph: Your data always belongs to you, and only you. We don’t make advertising deals or collect sensitive personal data. We’re funded directly by our users paying what they want for elementary OS and apps on AppCenter. And that’s how it should be.
+  elementary_os:
+    title: elementary OS
+    description: We do not collect any data from elementary OS. Your files, settings, and all other personal data remain on-device unless you explicitly share them with a third-party app or service.
+    online_accounts:
+      title: Online Accounts
+      description: elementary OS optionally integrates with online account providers such as Google, Last.fm, and Fastmail via System Settings. Data from these providers may be retrieved and stored locally on your device to be used in apps such as Mail and Calendar. This data is not sent to elementary or shared with any third party.
+      what: 
+        title: What Data is Collected
+        description: After adding an online account, elementary OS may collect and store your name, email address, avatar, email messages, calendar events, contacts, photos, and files from your connected accounts locally on your device.
+      how:
+        title: How Data is Used
+        description: Your data is stored locally on your device and never sent to elementary servers or any third parties. It is used to populate your local apps such as Mail, Calendar, Files, and Photos with your data.
+      sharing:
+        title: Sharing Data
+        description: elementary OS does not share any data collected from your online accounts. The data is never sent to elementary or third-party servers.
+  elementary_io:
+    title: elementary.io
+    plausible:
+      title: Plausible Analytics
+      description: We use the open source Plausible Analytics routed through our <code>stats.elementary.io</code> domain to count website visits, downloads, etc. You can see the same data we can see on <a href="https://plausible.io/elementary.io" target="_blank" rel="noopener">the public dashboard</a>. No cookies are used and no personal data—not even an IP address or browser user agent—is stored. For more information, see the <a href="https://plausible.io/data-policy" target="_blank" rel="noopener" class="read-more">Plausible Data Policy</a>
+    cookies:
+      title: Cookies
+      paragraph_1: You can choose to disable or selectively turn off any cookies or third-party cookies in your browser settings.
+      paragraph_2: This site uses cookies for incremental improvements. You may find the services function without them but at a reduced usability. For example, the site will not remember if you have previously paid for elementary OS; by default you will be asked to pay again.
+      cloudflare:
+        title: Cloudflare
+        description: Stores cookies to log behavioral elements and analyze potential threats. For more information, see the <a href="https://www.cloudflare.com/security-policy" target="_blank" rel="noopener" class="read-more">Cloudflare Privacy & Security Policy</a>
+      stripe:
+        title: Stripe
+        description: Uses cookies to remember your last order and your country so it knows what card types to offer for payments. For more information, see <a href="https://stripe.com/privacy" target="_blank" rel="noopener" class="read-more">Stripe's Privacy Policy</a>
+      manage:
+        title: Manage Cookies
+        description: As you have already visited our site, you may wish to manage cookies already set in your browser. Links to the relevant instructions can be found below.
+  transparency:
+    title: Transparency
+    description: We have not placed any backdoors into our software and have not received any requests for doing so. We have also never received a National Security Letter, FISA order, or any other classified request for user information.

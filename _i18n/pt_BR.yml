@@ -203,3 +203,43 @@ press:
     description: Hera é uma grande atualização sobre uma base sólida. Apresentando um login e tela de bloqueio totalmente redesenhados, uma nova experiência inicial, novas maneiras de carregar e instalar aplicativos de terceiros, grandes atualizações de configurações do sistema, aplicativos principais aprimorados e refinamentos da área de trabalho.
     read_announcement: Leia o Anúncio
     download: Baixar Kit de Imprensa
+
+privacy:
+  title: Privacidade
+  featured_paragraph: Seus dados sempre pertencem a você e somente você. Não realizamos acordos de propaganda e não coletamos informações pessoais sensíveis. Somos financiados diretamente pelos nossos usuários pagando o que querem pelo elementary OS e aplicativos no AppCenter. E é assim que deve ser.
+  elementary_os:
+    title: elementary OS
+    description: Não coletamos dado algum no elementary OS. Seus arquivos, configurações, e outros dados pessoais permanecem apenas em seu computador a não ser que você explicitamente os compartilhe com um aplicativo ou serviço de terceiros.
+    online_accounts:
+      title: Contas Online
+      description: O elementary OS opcionalmente se integra com provedores de contas online como Google, Last.fm e Fastmail através das configurações de sistema. Os dados desses provedores podem ser buscados e armazenados localmente em seu computador para serem usados em aplicativos como Email e Agenda. Esses dados não são enviados para a elementary nem para terceiros.
+      what: 
+        title: Quais Dados São Coletados
+        description: Após adicionar uma conta online, o elementary OS pode coletar e armazenar localmente em seu computador seu nome, endereço de email, imagem de perfil, mensagens de email, eventos da agenda, contatos, fotos e arquivos de suas contas conectadas.
+      how:
+        title: Como os Dados São Usados
+        description: Seus dados são armazenados localmente em seu computador e nunca enviados para servidores da elementary ou de quaisquer terceiros. Eles são usados apenas para utilização de aplicativos como Email, Agenda, Arquivos e Fotos.
+      sharing:
+        title: Compartilhamento dos Dados
+        description: O elementary OS não compartilha nenhum dos dados coletados de suas contas online. Os dados nunca são enviados para nossos servidores, nem para os de terceiros.
+  elementary_io:
+    title: elementary.io
+    plausible:
+      title: Plausible Analytics
+      description: Nós usamos a ferramenta de análise de tráfego Plausible Analytics através de nosso domínio <code>stats.elementary.io</code> para contar o número de visitas e downloads em nosso website. Você pode enxergar os mesmos dados que nós podemos através do <a href="https://plausible.io/elementary.io" target="_blank" rel="noopener">nosso quadro público</a>. Nenhum cookie é usado e nenhum dado pessoal—nem mesmo seu endereço de IP ou navegador—é armazenado. Para mais informações, veja a <a href="https://plausible.io/data-policy" target="_blank" rel="noopener" class="read-more">Política de Privacidade da Plausible</a>
+    cookies:
+      title: Cookies
+      paragraph_1: Você pode escolher desabilitar todos ou alguns cookies nas configurações de seu navegador.
+      paragraph_2: Este website usa cookies para melhorias incrementais, podendo ser utilizado sem eles, porém com funcionalidades reduzidas. Por exemplo, o website não lembrará se você já tiver pago pelo elementary OS anteriormente; por padrão será solicitado que você pague novamente.
+      cloudflare:
+        title: Cloudflare
+        description: Armazena cookies para analisar elementos comportamentais e analisar ameaças potenciais. Para mais informações, veja a <a href="https://www.cloudflare.com/security-policy" target="_blank" rel="noopener" class="read-more">Política de Privacidade & Segurança da Cloudflare</a>
+      stripe:
+        title: Stripe
+        description: Utiliza cookies para lembrar de seu último pedido e de seu país de origem, para saber quais tipos de cartão de crédito mostrar para pagamentos. Para mais informações, veja a <a href="https://stripe.com/privacy" target="_blank" rel="noopener" class="read-more">Política de Privacidade da Stripe</a>
+      manage:
+        title: Gerenciar Cookies
+        description: Como você já visitou nosso website, você pode desejar gerenciar cookies já armazenados em seu navegador. Instruções para tal podem ser vistas abaixo.
+  transparency:
+    title: Transparência
+    description: Nós não implementamos nenhuma vulnerabilidade planejada em nosso software e não recebemos nenhum pedido para fazê-lo. Também nunca recebemos uma National Security Letter, FISA order, ou quaisquer outras solicitações confidenciais de dados de usuários.
